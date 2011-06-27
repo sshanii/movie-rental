@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="7BD23D3E-DF9D-19B5-0255-F206E501331C" directorySegmentName="seg_0" name="DISCOUNT_TO_ORDERS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>FD43EB69-9F6B-C4CD-70A8-269995D80FFC</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <containerWithKeyObject>33DBBEA9-3863-0788-88BC-F2B7A24C0108</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>57FAA4E8-BB35-7A74-179C-305247A24313</localFKIndex>
+   <keyObject>FDA5252F-92C1-1037-37C4-B6F781C05F5D</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

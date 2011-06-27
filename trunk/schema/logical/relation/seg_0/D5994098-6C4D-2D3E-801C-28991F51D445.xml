@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDERS_TO_MOVIES" id="D5994098-6C4D-2D3E-801C-28991F51D445" directorySegmentName="seg_0">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-26 09:09:25 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 09:23:03 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>81CD461E-D801-74B9-772D-358ED4B319D9</targetEntity>
+   <transferable>true</transferable>
+</Relation>

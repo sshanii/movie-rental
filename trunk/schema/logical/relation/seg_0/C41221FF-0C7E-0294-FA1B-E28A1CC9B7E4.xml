@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ROLE_TO_USERS" id="C41221FF-0C7E-0294-FA1B-E28A1CC9B7E4" directorySegmentName="seg_0">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-25 20:34:52 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</targetEntity>
+   <transferable>true</transferable>
+</Relation>

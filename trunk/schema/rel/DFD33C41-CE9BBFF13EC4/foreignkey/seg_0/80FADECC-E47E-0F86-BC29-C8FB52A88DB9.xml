@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="80FADECC-E47E-0F86-BC29-C8FB52A88DB9" directorySegmentName="seg_0" name="GENRE_TO_MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <containerWithKeyObject>05AAFE6F-8F69-8DBB-126B-F02308061DAF</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>57CC5453-8116-B79A-D261-1BE7E6E954C3</localFKIndex>
+   <keyObject>CA4EB35A-293E-8E24-E37F-6D34BD1BFBEE</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

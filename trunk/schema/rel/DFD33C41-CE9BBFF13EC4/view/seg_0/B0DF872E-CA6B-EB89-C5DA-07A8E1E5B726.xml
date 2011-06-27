@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726" directorySegmentName="seg_0" name="VIEW_MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>30455534-EEFA-EDA4-BDF5-D43B09449BE3</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    &amp;quot;A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME&amp;quot; ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="M" containerID="05AAFE6F-8F69-8DBB-126B-F02308061DAF"/>
+      <container alias="G" containerID="5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32"/>
+      <container alias="D" containerID="77820712-1B05-20AD-0930-076A04EEF30C"/>
+      <container alias="A" containerID="86C13204-685C-7F89-4799-9CB0F3800DAE"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITLE" id="B8355086-DA09-E49F-392A-C82A30F6F957" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>3286DB9E-6FB6-EA52-55B3-371FA2142A2C</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <referencedColumn>94A82394-05E2-14BD-8066-E61919BEC179</referencedColumn>
+         <table>05AAFE6F-8F69-8DBB-126B-F02308061DAF</table>
+         <tableAlias>M</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME" id="E08DB3CD-3A05-C9CD-CDA9-69D6F079E098">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>7B7F3C6F-0CB3-FFF2-FC92-6C2E30A05339</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ACTOR</alias>
+         <expression>A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME</expression>
+         <reference>false</reference>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="YEAR" id="54A9DA9D-E80D-C980-CE7E-6F9002708A90" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>07C28343-117E-A776-BF2E-7A014F4DA940</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <referencedColumn>AEE1229C-5C4B-E921-2FDE-2200D31CE3E8</referencedColumn>
+         <table>05AAFE6F-8F69-8DBB-126B-F02308061DAF</table>
+         <tableAlias>M</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_GENRE" id="841D23BD-40FF-5E03-D4B2-211BC84F200A">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>DA1FF062-84C5-1771-D50E-4AC3E1D43678</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>GENRE</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>E39E3581-4CFA-3737-FF47-9334D233CAF0</referencedColumn>
+         <table>5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32</table>
+         <tableAlias>G</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_DATA_MEDIUM" id="692BC481-AFB5-5482-A6E3-6183E8FDA33B">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>DED00732-7425-A6A6-6225-D8F08CE75608</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DATA_MEDIUM</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>3C83FEA3-15C0-F9B9-3556-01C569822B43</referencedColumn>
+         <table>77820712-1B05-20AD-0930-076A04EEF30C</table>
+         <tableAlias>D</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="THREE_DIMENSIONAL" id="6F1BE11E-00F6-5D15-4D91-EE37DA07619E">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>42114149-34BA-5AA4-2CBF-54BA0F5A529A</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>CHAR (1)</dataType>
+         <reference>false</reference>
+         <referencedColumn>2D6C11B8-A450-8346-05A6-2DECFB2DDD12</referencedColumn>
+         <table>05AAFE6F-8F69-8DBB-126B-F02308061DAF</table>
+         <tableAlias>M</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CINEMA" id="AD548E9A-29DB-4903-70D0-FB19C9A3AD01">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>73283B25-0B45-3CEA-BB22-C9A4E41AF969</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>CHAR (1)</dataType>
+         <reference>false</reference>
+         <referencedColumn>9F714EE8-275B-8C19-BA39-2487F6A4E76F</referencedColumn>
+         <table>05AAFE6F-8F69-8DBB-126B-F02308061DAF</table>
+         <tableAlias>M</tableAlias>
+         <viewID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</viewID>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="CDBBFBF0-0B28-3F77-172E-65711051F283" name="TITLE" relem_id="94A82394-05E2-14BD-8066-E61919BEC179"/>
+      <orderByElement id="5CAA9576-7349-04E0-5A37-0D89F96D78CE" name="YEAR" relem_id="AEE1229C-5C4B-E921-2FDE-2200D31CE3E8" sort="DESC"/>
+   </orderByMaps>
+</TableView>
