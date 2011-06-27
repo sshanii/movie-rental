@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-26 10:55:24 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:24:34 UTC</changedTime>
+   <changedTime>2011-06-27 20:33:12 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
    <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USER,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    &amp;quot;D.NAME_DISCOUNT || &amp;apos; - &amp;apos; || D.VALUE_DISCOUNT&amp;quot; DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
+   <where>M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
    <viewType>EntityView</viewType>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">

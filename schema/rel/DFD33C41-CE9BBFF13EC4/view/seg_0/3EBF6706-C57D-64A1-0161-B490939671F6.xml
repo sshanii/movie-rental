@@ -3,12 +3,12 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:24:11 UTC</changedTime>
+   <changedTime>2011-06-27 20:32:10 UTC</changedTime>
    <generatorID>7C5D6AF3-ECA5-4006-48DF-47DAC26C8207</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME RESERVED,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME VALID&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    R.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>R.ID_USER = U.ID_USER</where>
+   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME RESERVED,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME VALID&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    RESERVATIONS_TO_MOVIES RM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -28,6 +28,7 @@
       <container alias="R" containerID="BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD"/>
       <container alias="M" containerID="05AAFE6F-8F69-8DBB-126B-F02308061DAF"/>
       <container alias="U" containerID="53C5D792-9019-7C5E-8B73-EB2DC8D62604"/>
+      <container alias="RM" containerID="8382E6D2-A379-2892-7882-D7CF416DCC06"/>
    </usedContainers>
    <viewElements>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ID_RESERVATION" id="852198CC-AB80-C938-DB67-D6B212A5D35D" directorySegmentName="seg_0">

@@ -3,12 +3,12 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:24:05 UTC</changedTime>
+   <changedTime>2011-06-27 20:29:35 UTC</changedTime>
    <generatorID>B420DD51-47F7-DEFD-B627-D6B42492C788</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ID ASC,&amp;lt;br/&amp;gt;    ORDERED DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
+   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ORDERS_TO_MOVIES OM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -29,6 +29,7 @@
       <container alias="M" containerID="05AAFE6F-8F69-8DBB-126B-F02308061DAF"/>
       <container alias="D" containerID="19949187-58EE-EE00-EED8-CBEB1346D1AD"/>
       <container alias="U" containerID="53C5D792-9019-7C5E-8B73-EB2DC8D62604"/>
+      <container alias="OM" containerID="598E6AFA-C2A2-7A4E-FB35-E6052655A745"/>
    </usedContainers>
    <viewElements>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ID_ORDER" id="21777DFE-9C0A-2633-BCEB-AE41239AC916" directorySegmentName="seg_0">
@@ -136,7 +137,7 @@
       </viewElement>
    </viewElements>
    <orderByMaps>
-      <orderByElement id="6A2E1C51-3F2D-4EE6-11C6-41D4B309A2AB" name="ID_ORDER" relem_id="87058CF2-C648-C59C-3EC4-7568A504A73A"/>
       <orderByElement id="C6CE1DFC-53D8-1416-E9D9-FB754917DE04" name="ORDER_DATE_TIME" relem_id="0907F02F-2395-C1B9-9D9A-9844FDE998A8" sort="DESC"/>
+      <orderByElement id="6A2E1C51-3F2D-4EE6-11C6-41D4B309A2AB" name="ID_ORDER" relem_id="87058CF2-C648-C59C-3EC4-7568A504A73A"/>
    </orderByMaps>
 </TableView>

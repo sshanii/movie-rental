@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 17:58:58 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+   <changedTime>2011-06-27 20:33:12 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <pkName>Reservations PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
@@ -99,7 +99,7 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:02:12 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+         <changedTime>2011-06-27 20:33:12 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <pk>true</pk>
          <usedAttributes>

@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-26 11:02:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+   <changedTime>2011-06-27 20:33:12 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
    <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USER,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>R.ID_USER = U.ID_USER</where>
+   <where>M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER</where>
    <viewType>EntityView</viewType>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
