@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="33DBBEA9-3863-0788-88BC-F2B7A24C0108" directorySegmentName="seg_0" name="ORDERS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Orders PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_ORDER" id="87058CF2-C648-C59C-3EC4-7568A504A73A">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>031C3B14-CBB0-FBD2-C65C-5FBE424AFBA6</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_DATE_TIME" id="0907F02F-2395-C1B9-9D9A-9844FDE998A8">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>FECDE30A-670E-22D3-C159-D9044C3CA6A8</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_DISCOUNT" id="E3417E88-E913-68B1-A5D2-4F1ECFDD78A3">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>99B4ECF0-4335-34EF-59A9-D50896A3D45F</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>437C58CE-2F84-E932-7F6D-F32327497AE6</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="7BD23D3E-DF9D-19B5-0255-F206E501331C" referredColumn="437C58CE-2F84-E932-7F6D-F32327497AE6"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_USER" id="817A668B-7D9F-F27D-2058-A53E04AAD763">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>9B425B84-1261-5173-09E7-E662D7918694</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>C0D12D6B-663B-A57E-A61E-C7CA8D946834</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="211BFE0F-56EF-EE8C-46E9-43D5CCDF8BA8" referredColumn="C0D12D6B-663B-A57E-A61E-C7CA8D946834"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7770B411-56AE-EB63-8874-49C5609C2A9E" name="Orders PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>06703D8A-103B-5CFF-468D-CE114E675C1F</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="87058CF2-C648-C59C-3EC4-7568A504A73A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="57FAA4E8-BB35-7A74-179C-305247A24313" name="DISCOUNT_TO_ORDERS">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>FD43EB69-9F6B-C4CD-70A8-269995D80FFC</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="E3417E88-E913-68B1-A5D2-4F1ECFDD78A3"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3ED49A11-60F6-B35F-A7A6-2AB4BBDAEA03" name="USER_TO_ORDERS">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>E1723978-B931-B0D1-6524-6ADDDF5FD0E2</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="817A668B-7D9F-F27D-2058-A53E04AAD763"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="B86D8034-4CDB-1012-2F08-7DC9005A6236" directorySegmentName="seg_0" name="RESERVATIONS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-25 17:58:58 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Reservations PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID_RESERVATION" id="71B45D63-59E6-92B1-D928-BFE393196323">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-25 17:59:23 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:12:42 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="RES_START_DATE_TIME" id="FEEFD7DA-52B8-2AC9-41E4-E32206551856">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-25 17:59:33 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:13:47 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="RES_END_DATE_TIME" id="B0D9A0AD-9621-8778-C6E5-040E1C49ADC3">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-25 18:00:41 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:13:52 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID_USER" id="7FAD0E92-EB7A-73E4-C24F-445526C94271">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:07:29 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:07:29 UTC</changedTime>
+         <generatorID>8E278282-2373-8FCA-EF23-E09AE910D274</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>6283CC1A-12D7-3556-8BAC-E08DC0961816</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="B62C9F4C-0085-33BA-7599-45B2D4F7C0E7" name="Reservations PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-25 18:02:12 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>71B45D63-59E6-92B1-D928-BFE393196323</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

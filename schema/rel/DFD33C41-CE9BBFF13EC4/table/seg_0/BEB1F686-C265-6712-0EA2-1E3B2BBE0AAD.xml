@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD" directorySegmentName="seg_0" name="RESERVATIONS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>B86D8034-4CDB-1012-2F08-7DC9005A6236</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Reservations PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_RESERVATION" id="1E797B1F-C193-328E-98C2-1424E8C15634">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>71B45D63-59E6-92B1-D928-BFE393196323</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="RES_START_DATE_TIME" id="2A122A3F-7136-9749-92CA-7176BD915545">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>FEEFD7DA-52B8-2AC9-41E4-E32206551856</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="RES_END_DATE_TIME" id="A7C66684-2BD0-CC51-96F7-6F8548DCB7B4">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>B0D9A0AD-9621-8778-C6E5-040E1C49ADC3</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_USER" id="08CE5EE9-F7CD-42D6-32F6-A461B6AC2AB3">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>7FAD0E92-EB7A-73E4-C24F-445526C94271</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>C0D12D6B-663B-A57E-A61E-C7CA8D946834</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="040C12F8-DF87-E479-D51E-FB3CF72387FD" referredColumn="C0D12D6B-663B-A57E-A61E-C7CA8D946834"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5B2FE36C-0B13-8CB5-0D1C-26D018AC4942" name="Reservations PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>B62C9F4C-0085-33BA-7599-45B2D4F7C0E7</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="1E797B1F-C193-328E-98C2-1424E8C15634"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="018A88AE-716B-229C-FF3B-43E4E9E292A3" name="USER_TO_RESERVATIONS">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>8E278282-2373-8FCA-EF23-E09AE910D274</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="08CE5EE9-F7CD-42D6-32F6-A461B6AC2AB3"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

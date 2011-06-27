@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="B0114532-F0A6-89B6-A850-718DD7924285" directorySegmentName="seg_0" name="ROLES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <generatorID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Roles PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_ROLE" id="AE7E803B-17B4-F41C-8A3B-B5B5F3459625">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>AE9E427E-C7B5-4945-A6F0-16B83812E426</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NAME_ROLE" id="8DA36AFB-2C8F-07F6-05E5-2D217338ED01">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>F34D6046-21E9-B038-1F72-EC57CE2D1655</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>30</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7A782A34-8E3F-9ECE-3465-A38FFC70E4E3" name="Roles PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>02CA6488-9918-3773-5597-A111037D7BB4</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="AE7E803B-17B4-F41C-8A3B-B5B5F3459625"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="05AAFE6F-8F69-8DBB-126B-F02308061DAF" directorySegmentName="seg_0" name="MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 11:37:50 UTC</changedTime>
+   <generatorID>81CD461E-D801-74B9-772D-358ED4B319D9</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Movies PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_MOVIE" id="CB325703-0457-3966-CAC7-0B9DBA7934F3">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>6C6A2982-8E12-569C-9250-ABB6CF109E9E</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TITLE" id="94A82394-05E2-14BD-8066-E61919BEC179">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>340DE5EB-1DF3-91FB-C2CF-42441DBF02D1</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="YEAR" id="AEE1229C-5C4B-E921-2FDE-2200D31CE3E8">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 11:37:49 UTC</changedTime>
+         <generatorID>C8733CC2-AA07-A700-AA76-47D30F156D99</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="THREE_DIMENSIONAL" id="2D6C11B8-A450-8346-05A6-2DECFB2DDD12">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>AF761268-C765-EEC7-26FE-6CA9414BBB0E</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <defaultValue>0</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CINEMA" id="9F714EE8-275B-8C19-BA39-2487F6A4E76F">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>8637ACBB-5438-EE5F-46D9-1AC4D639CC51</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <defaultValue>0</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_GENRE" id="2597F5F7-5A5B-AC81-513C-3B22B5DCBEBC">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>3B1BCB6A-85FE-0686-B348-C6359764AE17</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>0D9F79BC-9E70-73F0-46A5-A7D10336F929</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="80FADECC-E47E-0F86-BC29-C8FB52A88DB9" referredColumn="0D9F79BC-9E70-73F0-46A5-A7D10336F929"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_DATA_MEDIUM" id="45E21607-8EB8-BC32-3097-5810A37A222C">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>3163C4E5-2B40-31CF-0FED-136E7C3D9ECC</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>175E3E13-49FE-042B-F965-349B2C8C612C</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="155275C8-8D36-EB83-64B3-466634663536" referredColumn="175E3E13-49FE-042B-F965-349B2C8C612C"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7934382E-5231-7B84-D277-D017CDAE8080" name="Movies PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>CE64A4D9-1683-960B-190D-5738F49ED3C9</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="CB325703-0457-3966-CAC7-0B9DBA7934F3"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2EF7A54D-D248-79BA-2A39-60A9B79F8A0E" name="DATA_MEDIUM_TO_MOVIES">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>69491B7F-6ED3-4C44-CB30-0EEE2D2D6420</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="45E21607-8EB8-BC32-3097-5810A37A222C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="57CC5453-8116-B79A-D261-1BE7E6E954C3" name="GENRE_TO_MOVIES">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="2597F5F7-5A5B-AC81-513C-3B22B5DCBEBC"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

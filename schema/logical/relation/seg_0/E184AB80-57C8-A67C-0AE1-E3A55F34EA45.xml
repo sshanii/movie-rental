@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVATIONS_TO_MOVIES" id="E184AB80-57C8-A67C-0AE1-E3A55F34EA45" directorySegmentName="seg_0">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-26 09:09:30 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 09:23:17 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>B86D8034-4CDB-1012-2F08-7DC9005A6236</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>81CD461E-D801-74B9-772D-358ED4B319D9</targetEntity>
+   <transferable>true</transferable>
+</Relation>

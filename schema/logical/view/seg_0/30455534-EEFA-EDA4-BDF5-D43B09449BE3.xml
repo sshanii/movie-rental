@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="30455534-EEFA-EDA4-BDF5-D43B09449BE3" directorySegmentName="seg_0" name="VIEW_MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-26 10:41:02 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:23:08 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    &amp;quot;A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME&amp;quot; ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="M" containerID="81CD461E-D801-74B9-772D-358ED4B319D9"/>
+      <container alias="G" containerID="2DF5080D-A5AC-4CF2-C452-5A785D6525A2"/>
+      <container alias="D" containerID="E7FADE37-10A0-E6D4-C0AA-A5C94B158C51"/>
+      <container alias="A" containerID="6004D9D1-E460-1639-6F5B-53BAA6C035E1"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TITLE" id="3286DB9E-6FB6-EA52-55B3-371FA2142A2C">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:44:38 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:26 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <referencedColumn>340DE5EB-1DF3-91FB-C2CF-42441DBF02D1</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME" id="7B7F3C6F-0CB3-FFF2-FC92-6C2E30A05339">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:21:41 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:06 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ACTOR</alias>
+         <expression>A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME</expression>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="YEAR" id="07C28343-117E-A776-BF2E-7A014F4DA940">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:45:08 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:30 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <referencedColumn>C8733CC2-AA07-A700-AA76-47D30F156D99</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NAME_GENRE" id="DA1FF062-84C5-1771-D50E-4AC3E1D43678">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:45:29 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:18:20 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>GENRE</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>8E1324F0-922C-230B-EF7A-F0DE2DD049B9</referencedColumn>
+         <table>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</table>
+         <tableAlias>G</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NAME_DATA_MEDIUM" id="DED00732-7425-A6A6-6225-D8F08CE75608">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:45:35 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:18:20 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DATA_MEDIUM</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>16AC2D36-8479-9D41-3FD9-E1DD7ADC988C</referencedColumn>
+         <table>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</table>
+         <tableAlias>D</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="THREE_DIMENSIONAL" id="42114149-34BA-5AA4-2CBF-54BA0F5A529A">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:45:10 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:38 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>CHAR (1)</dataType>
+         <reference>false</reference>
+         <referencedColumn>AF761268-C765-EEC7-26FE-6CA9414BBB0E</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CINEMA" id="73283B25-0B45-3CEA-BB22-C9A4E41AF969">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:45:12 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:45 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>CHAR (1)</dataType>
+         <reference>false</reference>
+         <referencedColumn>8637ACBB-5438-EE5F-46D9-1AC4D639CC51</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="280B1FC4-17DA-73EA-BDF6-872CDA4663BB" name="YEAR" relem_id="C8733CC2-AA07-A700-AA76-47D30F156D99" sort="DESC"/>
+      <orderByElement id="F2022FDF-ECBB-847A-1A6D-228BA830DBC1" name="TITLE" relem_id="340DE5EB-1DF3-91FB-C2CF-42441DBF02D1"/>
+   </orderByMaps>
+</EntityView>

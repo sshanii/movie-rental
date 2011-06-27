@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="B420DD51-47F7-DEFD-B627-D6B42492C788" directorySegmentName="seg_0" name="VIEW_ORDERS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-26 10:55:24 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:24:34 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USER,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    &amp;quot;D.NAME_DISCOUNT || &amp;apos; - &amp;apos; || D.VALUE_DISCOUNT&amp;quot; DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="O" containerID="74AE6B41-6C6A-E14C-5833-8CD2669C1E79"/>
+      <container alias="M" containerID="81CD461E-D801-74B9-772D-358ED4B319D9"/>
+      <container alias="D" containerID="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925"/>
+      <container alias="U" containerID="9693CCF0-10B5-9AFF-7B69-D2129ADFF408"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ID_ORDER" id="412B7C3B-9B05-3ACE-E1A2-B8A6E09D3FE7">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:56:41 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:11:58 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ID</alias>
+         <dataType>NUMBER (10)</dataType>
+         <reference>false</reference>
+         <referencedColumn>031C3B14-CBB0-FBD2-C65C-5FBE424AFBA6</referencedColumn>
+         <table>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</table>
+         <tableAlias>O</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="CF1C632C-77C9-95A3-8087-D94F3C27EC5A">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:10:27 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:11:41 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>USER</alias>
+         <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TITLE" id="77BE79F7-E8FE-5140-7019-CAA56B23714B">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:57:03 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:26 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <referencedColumn>340DE5EB-1DF3-91FB-C2CF-42441DBF02D1</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="YEAR" id="B542F63D-96F2-324B-A610-837EC7E2BC5B">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:57:44 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:30 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <referencedColumn>C8733CC2-AA07-A700-AA76-47D30F156D99</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="THREE_DIMENSIONAL" id="2344CD3B-AA1A-DE1B-E7ED-E175CAA182D1">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:57:35 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:10:38 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>CHAR (1)</dataType>
+         <reference>false</reference>
+         <referencedColumn>AF761268-C765-EEC7-26FE-6CA9414BBB0E</referencedColumn>
+         <table>81CD461E-D801-74B9-772D-358ED4B319D9</table>
+         <tableAlias>M</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="D.NAME_DISCOUNT || &amp;apos; - &amp;apos; || D.VALUE_DISCOUNT" id="DDFC4E4C-58FF-4C0C-53F1-E4F6E6AE8E33">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:59:23 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:57:22 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DISCOUNT</alias>
+         <expression>D.NAME_DISCOUNT || &amp;apos; - &amp;apos; || D.VALUE_DISCOUNT</expression>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ORDER_DATE_TIME" id="C7DF823D-E2D0-18B9-01DA-F3FC5804702B">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-26 10:58:13 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 09:18:48 UTC</changedTime>
+         <ownerDesignName>newdesign</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORDERED</alias>
+         <dataType>DATE</dataType>
+         <reference>false</reference>
+         <referencedColumn>FECDE30A-670E-22D3-C159-D9044C3CA6A8</referencedColumn>
+         <table>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</table>
+         <tableAlias>O</tableAlias>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="D6E8D70B-B892-AB80-3907-261245607E26" name="ORDER_DATE_TIME" relem_id="FECDE30A-670E-22D3-C159-D9044C3CA6A8" sort="DESC"/>
+      <orderByElement id="9D6C2CD5-6DE6-F75C-CFC9-9EA3F9BD6483" name="ID_ORDER" relem_id="031C3B14-CBB0-FBD2-C65C-5FBE424AFBA6"/>
+   </orderByMaps>
+</EntityView>

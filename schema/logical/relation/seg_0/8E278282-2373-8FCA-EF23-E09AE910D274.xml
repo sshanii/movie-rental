@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_TO_RESERVATIONS" id="8E278282-2373-8FCA-EF23-E09AE910D274" directorySegmentName="seg_0">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-27 10:07:29 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-27 10:24:27 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>B86D8034-4CDB-1012-2F08-7DC9005A6236</targetEntity>
+   <transferable>true</transferable>
+</Relation>
