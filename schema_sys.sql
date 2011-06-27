@@ -1,6 +1,6 @@
-create user xjcook identified by dzugasvili;
-grant create session to xjcook;
-grant create table to xjcook;
-grant create view to xjcook;
-grant unlimited tablespace to xjcook;
+create user movierental identified by movierental;
+grant create session to movierental;
+grant create table to movierental;
+grant create view to movierental;
+grant unlimited tablespace to movierental;
 /
