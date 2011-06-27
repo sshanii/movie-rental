@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <changedTime>2011-06-27 20:16:22 UTC</changedTime>
    <generatorID>BE75BFA4-091C-0278-0DF2-0C6D125875C3</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_USERS&amp;lt;br/&amp;gt;  ( NICK,&amp;lt;br/&amp;gt;    FIRSTNAME,&amp;lt;br/&amp;gt;    LASTNAME,&amp;lt;br/&amp;gt;    CITY,&amp;lt;br/&amp;gt;    STREET_ADDRESS,&amp;lt;br/&amp;gt;    E-MAIL,&amp;lt;br/&amp;gt;    TELEPHONE,&amp;lt;br/&amp;gt;    CREDIT,&amp;lt;br/&amp;gt;    ROLE,&amp;lt;br/&amp;gt;    REGISTERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.NICK,&amp;lt;br/&amp;gt;    U.FIRSTNAME,&amp;lt;br/&amp;gt;    U.LASTNAME,&amp;lt;br/&amp;gt;    U.CITY,&amp;lt;br/&amp;gt;    U.STREET_ADDRESS,&amp;lt;br/&amp;gt;    U.E-MAIL,&amp;lt;br/&amp;gt;    U.TELEPHONE,&amp;lt;br/&amp;gt;    U.CREDIT,&amp;lt;br/&amp;gt;    R.NAME_ROLE,&amp;lt;br/&amp;gt;    U.REGISTER_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ROLES R&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_ROLE = R.ID_ROLE&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    REGISTERED DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <userDefinedSQL>CREATE VIEW VIEW_USERS&amp;lt;br/&amp;gt;  ( NICK,&amp;lt;br/&amp;gt;    FIRSTNAME,&amp;lt;br/&amp;gt;    LASTNAME,&amp;lt;br/&amp;gt;    CITY,&amp;lt;br/&amp;gt;    STREET_ADDRESS,&amp;lt;br/&amp;gt;    &amp;quot;E-MAIL&amp;quot;,&amp;lt;br/&amp;gt;    TELEPHONE,&amp;lt;br/&amp;gt;    CREDIT,&amp;lt;br/&amp;gt;    ROLE,&amp;lt;br/&amp;gt;    REGISTERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.NICK,&amp;lt;br/&amp;gt;    U.FIRSTNAME,&amp;lt;br/&amp;gt;    U.LASTNAME,&amp;lt;br/&amp;gt;    U.CITY,&amp;lt;br/&amp;gt;    U.STREET_ADDRESS,&amp;lt;br/&amp;gt;    U.&amp;quot;E-MAIL&amp;quot;,&amp;lt;br/&amp;gt;    U.TELEPHONE,&amp;lt;br/&amp;gt;    U.CREDIT,&amp;lt;br/&amp;gt;    R.NAME_ROLE ROLE,&amp;lt;br/&amp;gt;    U.REGISTER_DATE_TIME REGISTERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ROLES R&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_ROLE = R.ID_ROLE&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    REGISTERED DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>U.ID_ROLE = R.ID_ROLE</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">

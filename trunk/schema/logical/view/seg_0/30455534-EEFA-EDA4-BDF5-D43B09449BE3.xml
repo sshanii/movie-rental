@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-26 10:41:02 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:23:08 UTC</changedTime>
+   <changedTime>2011-06-27 20:33:12 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
    <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    &amp;quot;A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME&amp;quot; ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
+   <where>A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
    <viewType>EntityView</viewType>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">

@@ -3,12 +3,12 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <changedTime>2011-06-27 20:16:12 UTC</changedTime>
    <generatorID>30455534-EEFA-EDA4-BDF5-D43B09449BE3</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    &amp;quot;A.FIRSTNAME || &amp;apos; &amp;apos; || A.LASTNAME&amp;quot; ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
+   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    A.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || A&amp;quot;.LASTNAME ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A,&amp;lt;br/&amp;gt;    ACTORS_TO_MOVIES AM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -29,6 +29,7 @@
       <container alias="G" containerID="5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32"/>
       <container alias="D" containerID="77820712-1B05-20AD-0930-076A04EEF30C"/>
       <container alias="A" containerID="86C13204-685C-7F89-4799-9CB0F3800DAE"/>
+      <container alias="AM" containerID="505D82A7-7373-DC19-71B2-C21A74BBE0E9"/>
    </usedContainers>
    <viewElements>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITLE" id="B8355086-DA09-E49F-392A-C82A30F6F957" directorySegmentName="seg_0">
@@ -138,7 +139,7 @@
       </viewElement>
    </viewElements>
    <orderByMaps>
-      <orderByElement id="CDBBFBF0-0B28-3F77-172E-65711051F283" name="TITLE" relem_id="94A82394-05E2-14BD-8066-E61919BEC179"/>
       <orderByElement id="5CAA9576-7349-04E0-5A37-0D89F96D78CE" name="YEAR" relem_id="AEE1229C-5C4B-E921-2FDE-2200D31CE3E8" sort="DESC"/>
+      <orderByElement id="CDBBFBF0-0B28-3F77-172E-65711051F283" name="TITLE" relem_id="94A82394-05E2-14BD-8066-E61919BEC179"/>
    </orderByMaps>
 </TableView>
