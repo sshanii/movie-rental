@@ -3,8 +3,9 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 17:49:16 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 20:33:12 UTC</changedTime>
+   <changedTime>2011-06-28 07:40:55 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
    <pkName>Movies PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
    <expectedVolumes>0</expectedVolumes>
@@ -54,8 +55,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:49:31 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:10:23 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
          <dataTypePrecision>10</dataTypePrecision>
@@ -65,8 +67,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-26 10:37:12 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:10:26 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>50</dataTypeSize>
@@ -75,8 +78,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:49:40 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 11:37:09 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
          <dataTypePrecision>4</dataTypePrecision>
@@ -86,8 +90,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:50:59 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:26:01 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <defaultValue>0</defaultValue>
          <use>1</use>
          <logicalDatatype>LOGDT006</logicalDatatype>
@@ -97,8 +102,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:51:49 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:26:05 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <defaultValue>0</defaultValue>
          <use>1</use>
          <logicalDatatype>LOGDT006</logicalDatatype>
@@ -108,9 +114,10 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 20:37:00 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:15:33 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <generatorID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</generatorID>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <nullsAllowed>true</nullsAllowed>
          <referedAttribute>9572411F-FCB2-0B2B-3BBD-BCC6911463BF</referedAttribute>
          <use>1</use>
@@ -122,9 +129,10 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 20:39:48 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:17:06 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <generatorID>69491B7F-6ED3-4C44-CB30-0EEE2D2D6420</generatorID>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <nullsAllowed>true</nullsAllowed>
          <referedAttribute>0E1CF16F-1B19-6984-46FD-A04F3B8B6137</referedAttribute>
          <use>1</use>
@@ -138,8 +146,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:50:26 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 20:33:12 UTC</changedTime>
+         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <pk>true</pk>
          <usedAttributes>
             <attributeRef>6C6A2982-8E12-569C-9250-ABB6CF109E9E</attributeRef>

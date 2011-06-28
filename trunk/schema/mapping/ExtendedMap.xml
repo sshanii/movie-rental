@@ -3,7 +3,7 @@
    <mappings>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="02CA6488-9918-3773-5597-A111037D7BB47A782A34-8E3F-9ECE-3465-A38FFC70E4E3">
          <creationTime>1309170220304</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -22,7 +22,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="031C3B14-CBB0-FBD2-C65C-5FBE424AFBA687058CF2-C648-C59C-3EC4-7568A504A73A">
          <creationTime>1309170220295</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -41,7 +41,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="06703D8A-103B-5CFF-468D-CE114E675C1F7770B411-56AE-EB63-8874-49C5609C2A9E">
          <creationTime>1309170220297</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -60,7 +60,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5B0114532-F0A6-89B6-A850-718DD7924285">
          <creationTime>1309170220302</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -77,7 +77,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="08ACCCEE-A153-C566-3E2D-7B47DCD22BD414CEFA37-BAEB-78B0-9DB7-EE4014EC7E3C">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -96,7 +96,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="0E1CF16F-1B19-6984-46FD-A04F3B8B6137175E3E13-49FE-042B-F965-349B2C8C612C">
          <creationTime>1309170220278</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -115,7 +115,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="16AC2D36-8479-9D41-3FD9-E1DD7ADC988C3C83FEA3-15C0-F9B9-3556-01C569822B43">
          <creationTime>1309170220279</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -134,7 +134,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="1713F631-ECC3-5748-8ABA-0A745564C12D823C5D40-3785-B9FF-EE48-132DAE6BEEB5">
          <creationTime>1309170220272</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -153,7 +153,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="2156E2C5-A8E6-2CF9-E693-7ED503C0FE4E42F80C01-2A39-FC55-87AB-90BE1FCC0657">
          <creationTime>1309170220312</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -172,7 +172,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="2DF5080D-A5AC-4CF2-C452-5A785D6525A25EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32">
          <creationTime>1309170220286</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -206,7 +206,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3163C4E5-2B40-31CF-0FED-136E7C3D9ECC45E21607-8EB8-BC32-3097-5810A37A222C">
          <creationTime>1309170220292</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -225,7 +225,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="32819F61-8BC7-AD52-4E05-CB1A7BC1A3770BFF901F-C1C7-697C-00CB-9B598E2D533A">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -244,7 +244,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="340DE5EB-1DF3-91FB-C2CF-42441DBF02D194A82394-05E2-14BD-8066-E61919BEC179">
          <creationTime>1309170220290</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -263,7 +263,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3B1BCB6A-85FE-0686-B348-C6359764AE172597F5F7-5A5B-AC81-513C-3B22B5DCBEBC">
          <creationTime>1309170220292</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -282,7 +282,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A786EC1ABB3D-473C-DFCA-AEEF-F0CD1C5FC333">
          <creationTime>1309170220283</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -301,7 +301,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4057E9BD-F7D8-610B-468D-035361FEC347F8097815-FF3E-7486-840F-172B8FAE2D5D">
          <creationTime>1309170220280</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -320,7 +320,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="457834EB-B00B-0631-FF7F-4642539D40961E18C40D-9672-15A7-CD15-E4900489AB64">
          <creationTime>1309170220283</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -339,7 +339,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="46613F7C-C077-724D-76CC-C5349B1B63E26DBA0559-5D56-8B50-C776-EDA822127FB4">
          <creationTime>1309170220314</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -358,7 +358,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4979D673-EB91-4756-E61D-463A526F26FC4C038F6E-D04B-A272-7AEC-58C4D86D7B60">
          <creationTime>1309170220312</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -377,7 +377,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F92519949187-58EE-EE00-EED8-CBEB1346D1AD">
          <creationTime>1309170220282</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -394,7 +394,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4F5AAA2A-3073-8A1C-3476-BC1D13B9FC86FDA5252F-92C1-1037-37C4-B6F781C05F5D">
          <creationTime>1309170220284</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -413,7 +413,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="535C987F-0C62-13F7-E06E-40FA4AE29ACF595183CA-51D7-C814-D1A9-F85EFD1687CE">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -432,7 +432,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="55D0A17C-8AC2-CEA5-78C6-C40A00ED6895E564B579-5396-96C4-B521-17837A7C137B">
          <creationTime>1309170220273</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -451,7 +451,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6004D9D1-E460-1639-6F5B-53BAA6C035E186C13204-685C-7F89-4799-9CB0F3800DAE">
          <creationTime>1309170220270</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -468,7 +468,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6283CC1A-12D7-3556-8BAC-E08DC0961816C0D12D6B-663B-A57E-A61E-C7CA8D946834">
          <creationTime>1309170220309</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -506,7 +506,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6C6A2982-8E12-569C-9250-ABB6CF109E9ECB325703-0457-3966-CAC7-0B9DBA7934F3">
          <creationTime>1309170220290</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -525,7 +525,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="71B45D63-59E6-92B1-D928-BFE3931963231E797B1F-C193-328E-98C2-1424E8C15634">
          <creationTime>1309170220299</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -544,7 +544,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="74AE6B41-6C6A-E14C-5833-8CD2669C1E7933DBBEA9-3863-0788-88BC-F2B7A24C0108">
          <creationTime>1309170220294</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -561,7 +561,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="77AC2B6F-8381-6502-30F0-331856B99FA8E71ED16F-B8F0-BEEC-925F-F4E333A685A3">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -597,7 +597,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="7FAD0E92-EB7A-73E4-C24F-445526C9427108CE5EE9-F7CD-42D6-32F6-A461B6AC2AB3">
          <creationTime>1309170220300</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -616,7 +616,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="80593293-C238-7E39-396E-4F4F1C96A719E1312171-FD4D-4DBC-B990-ADD1406EDC9C">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -635,7 +635,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="81CD461E-D801-74B9-772D-358ED4B319D905AAFE6F-8F69-8DBB-126B-F02308061DAF">
          <creationTime>1309170220289</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -652,7 +652,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8637ACBB-5438-EE5F-46D9-1AC4D639CC519F714EE8-275B-8C19-BA39-2487F6A4E76F">
          <creationTime>1309170220291</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -671,7 +671,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E1324F0-922C-230B-EF7A-F0DE2DD049B9E39E3581-4CFA-3737-FF47-9334D233CAF0">
          <creationTime>1309170220287</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -728,7 +728,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8EAF9B99-53CC-E7CA-A797-B7F09AF849672B176E7F-FF3A-B3CC-B5E2-5E858B5CB762">
          <creationTime>1309170220275</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -745,9 +745,26 @@
          <targetName>Actors PK</targetName>
          <targettype>6</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8EEF275A-647F-B683-34E4-2A5D973A23A62A87E52F-C4EE-3BAE-06B6-422C4037CE76">
+         <creationTime>1309246868103</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8EEF275A-647F-B683-34E4-2A5D973A23A6</ownerID>
+         <ownerName>VIEW_DISCOUNTS</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
+         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetID>2A87E52F-C4EE-3BAE-06B6-422C4037CE76</targetID>
+         <targetName>VIEW_DISCOUNTS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9572411F-FCB2-0B2B-3BBD-BCC6911463BF0D9F79BC-9E70-73F0-46A5-A7D10336F929">
          <creationTime>1309170220287</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -766,7 +783,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9693CCF0-10B5-9AFF-7B69-D2129ADFF40853C5D792-9019-7C5E-8B73-EB2DC8D62604">
          <creationTime>1309170220308</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -783,7 +800,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="99B4ECF0-4335-34EF-59A9-D50896A3D45FE3417E88-E913-68B1-A5D2-4F1ECFDD78A3">
          <creationTime>1309170220296</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -802,7 +819,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9B425B84-1261-5173-09E7-E662D7918694817A668B-7D9F-F27D-2058-A53E04AAD763">
          <creationTime>1309170220296</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -821,7 +838,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="A61CD90A-5044-A79E-E63F-685A340D21F39F66F2FF-3FFC-7C45-D399-7B8A77FB6544">
          <creationTime>1309170220271</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -840,7 +857,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="AE9E427E-C7B5-4945-A6F0-16B83812E426AE7E803B-17B4-F41C-8A3B-B5B5F3459625">
          <creationTime>1309170220303</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -859,7 +876,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="AF761268-C765-EEC7-26FE-6CA9414BBB0E2D6C11B8-A450-8346-05A6-2DECFB2DDD12">
          <creationTime>1309170220291</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -878,7 +895,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B0D9A0AD-9621-8778-C6E5-040E1C49ADC3A7C66684-2BD0-CC51-96F7-6F8548DCB7B4">
          <creationTime>1309170220300</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -914,7 +931,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B58F2133-3F07-8FD4-955D-C596BB1C1DC4862CF0AD-3CF0-2296-7C32-5F24CD2A8C19">
          <creationTime>1309170220311</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -933,7 +950,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B62C9F4C-0085-33BA-7599-45B2D4F7C0E75B2FE36C-0B13-8CB5-0D1C-26D018AC4942">
          <creationTime>1309170220301</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -952,7 +969,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B86D8034-4CDB-1012-2F08-7DC9005A6236BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD">
          <creationTime>1309170220298</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -986,7 +1003,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C06DE044-5C68-AA64-3374-09142666F7B0437C58CE-2F84-E932-7F6D-F32327497AE6">
          <creationTime>1309170220283</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1005,7 +1022,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C37B7C4A-AE15-E5C5-7EDF-33B9097FDCB8E83B1393-8059-826F-AFF3-384F993DE47A">
          <creationTime>1309170220311</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1043,7 +1060,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C8733CC2-AA07-A700-AA76-47D30F156D99AEE1229C-5C4B-E921-2FDE-2200D31CE3E8">
          <creationTime>1309170220291</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1062,7 +1079,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="CE64A4D9-1683-960B-190D-5738F49ED3C97934382E-5231-7B84-D277-D017CDAE8080">
          <creationTime>1309170220293</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1119,7 +1136,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="DC815845-4E98-B699-C3DE-AB66675458BA5768F65C-DAB5-9938-E629-F624398C204D">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1176,7 +1193,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E7FADE37-10A0-E6D4-C0AA-A5C94B158C5177820712-1B05-20AD-0930-076A04EEF30C">
          <creationTime>1309170220277</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -1193,7 +1210,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="F34D6046-21E9-B038-1F72-EC57CE2D16558DA36AFB-2C8F-07F6-05E5-2D217338ED01">
          <creationTime>1309170220304</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1212,7 +1229,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="F907BC85-4541-7411-E061-2F581196A035CA4EB35A-293E-8E24-E37F-6D34BD1BFBEE">
          <creationTime>1309170220288</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1231,7 +1248,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FA7F3818-3673-1886-E779-64C7B24A640BA3841E4A-F90D-9327-FF32-B7110F44ECAD">
          <creationTime>1309170220309</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1269,7 +1286,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FECDE30A-670E-22D3-C159-D9044C3CA6A80907F02F-2395-C1B9-9D9A-9844FDE998A8">
          <creationTime>1309170220295</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1288,7 +1305,7 @@
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FEEFD7DA-52B8-2AC9-41E4-E322065518562A122A3F-7136-9749-92CA-7176BD915545">
          <creationTime>1309170220299</creationTime>
-         <fwEngineer>true</fwEngineer>
+         <fwEngineer>false</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
