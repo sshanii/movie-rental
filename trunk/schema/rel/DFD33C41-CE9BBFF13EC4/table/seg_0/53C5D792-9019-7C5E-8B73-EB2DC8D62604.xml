@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+   <changedTime>2011-06-28 11:22:29 UTC</changedTime>
    <generatorID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <pkName>Users PK</pkName>
@@ -56,16 +56,28 @@
          <dataTypeScale>0</dataTypeScale>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NICK" id="A3841E4A-F90D-9327-FF32-B7110F44ECAD">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="USERNAME" id="A3841E4A-F90D-9327-FF32-B7110F44ECAD">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:23:40 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <changedTime>2011-06-28 08:49:50 UTC</changedTime>
          <generatorID>FA7F3818-3673-1886-E779-64C7B24A640B</generatorID>
          <ownerDesignName>schema</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
-         <dataTypeSize>15</dataTypeSize>
+         <dataTypeSize>30</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PASSWORD" id="0BFF901F-C1C7-697C-00CB-9B598E2D533A">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <generatorID>32819F61-8BC7-AD52-4E05-CB1A7BC1A377</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
       <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIRSTNAME" id="5768F65C-DAB5-9938-E629-F624398C204D">
@@ -91,18 +103,6 @@
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>30</dataTypeSize>
-         <previousColumn>false</previousColumn>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PASSWORD" id="0BFF901F-C1C7-697C-00CB-9B598E2D533A">
-         <createdBy>oracle</createdBy>
-         <createdTime>2011-06-27 10:23:40 UTC</createdTime>
-         <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
-         <generatorID>32819F61-8BC7-AD52-4E05-CB1A7BC1A377</generatorID>
-         <ownerDesignName>schema</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT037</logicalDatatype>
-         <dataTypeSize>50</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
       <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CITY" id="862CF0AD-3CF0-2296-7C32-5F24CD2A8C19">
@@ -131,11 +131,11 @@
          <dataTypeSize>50</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="E-MAIL" id="4C038F6E-D04B-A272-7AEC-58C4D86D7B60">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMAIL" id="4C038F6E-D04B-A272-7AEC-58C4D86D7B60">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:23:40 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <changedTime>2011-06-28 11:22:29 UTC</changedTime>
          <generatorID>4979D673-EB91-4756-E61D-463A526F26FC</generatorID>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>

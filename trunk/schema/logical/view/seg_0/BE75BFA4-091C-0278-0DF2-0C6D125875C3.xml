@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-26 10:26:58 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 07:40:55 UTC</changedTime>
+   <changedTime>2011-06-28 11:22:01 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <shouldEngineer>false</shouldEngineer>
    <userDefined>false</userDefined>
@@ -30,11 +30,11 @@
       <container alias="R" containerID="07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5"/>
    </usedContainers>
    <viewElements>
-      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NICK" id="3DADDD32-C534-58E9-34FA-E42A5F8C83BE">
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="USERNAME" id="3DADDD32-C534-58E9-34FA-E42A5F8C83BE">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-26 10:29:03 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:07:58 UTC</changedTime>
+         <changedTime>2011-06-28 08:49:05 UTC</changedTime>
          <ownerDesignName>newdesign</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
          <dataType>NVARCHAR2 (15)</dataType>
@@ -95,11 +95,11 @@
          <table>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</table>
          <tableAlias>U</tableAlias>
       </viewElement>
-      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="E-MAIL" id="A007E3E9-711F-AA20-00EE-9D1B83A7C8D7">
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="EMAIL" id="A007E3E9-711F-AA20-00EE-9D1B83A7C8D7">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-26 10:29:18 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 09:08:35 UTC</changedTime>
+         <changedTime>2011-06-28 11:22:01 UTC</changedTime>
          <ownerDesignName>newdesign</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
          <dataType>NVARCHAR2 (50)</dataType>

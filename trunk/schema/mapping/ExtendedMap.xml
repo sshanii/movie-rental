@@ -364,7 +364,7 @@
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
          <ownerID>4979D673-EB91-4756-E61D-463A526F26FC</ownerID>
-         <ownerName>E-MAIL</ownerName>
+         <ownerName>EMAIL</ownerName>
          <ownerType>1</ownerType>
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
@@ -372,7 +372,7 @@
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
          <targetDesignPartName>MovieRental</targetDesignPartName>
          <targetID>4C038F6E-D04B-A272-7AEC-58C4D86D7B60</targetID>
-         <targetName>E-MAIL</targetName>
+         <targetName>EMAIL</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F92519949187-58EE-EE00-EED8-CBEB1346D1AD">
@@ -1254,7 +1254,7 @@
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
          <ownerID>FA7F3818-3673-1886-E779-64C7B24A640B</ownerID>
-         <ownerName>NICK</ownerName>
+         <ownerName>USERNAME</ownerName>
          <ownerType>1</ownerType>
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
@@ -1262,7 +1262,7 @@
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
          <targetDesignPartName>MovieRental</targetDesignPartName>
          <targetID>A3841E4A-F90D-9327-FF32-B7110F44ECAD</targetID>
-         <targetName>NICK</targetName>
+         <targetName>USERNAME</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FD43EB69-9F6B-C4CD-70A8-269995D80FFC7BD23D3E-DF9D-19B5-0255-F206E501331C">
