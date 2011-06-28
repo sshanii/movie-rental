@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 13:41:13 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 07:47:07 UTC</changedTime>
+   <changedTime>2011-06-28 11:22:01 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <shouldEngineer>false</shouldEngineer>
    <pkName>Users PK</pkName>
@@ -63,16 +63,27 @@
          <dataTypePrecision>10</dataTypePrecision>
          <dataTypeScale>0</dataTypeScale>
       </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NICK" id="FA7F3818-3673-1886-E779-64C7B24A640B">
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="USERNAME" id="FA7F3818-3673-1886-E779-64C7B24A640B">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:22:06 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 08:49:05 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>15</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PASSWORD" id="32819F61-8BC7-AD52-4E05-CB1A7BC1A377">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-25 17:41:25 UTC</createdTime>
          <changedBy>oracle</changedBy>
          <changedTime>2011-06-28 07:40:55 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
-         <dataTypeSize>15</dataTypeSize>
+         <dataTypeSize>50</dataTypeSize>
       </Attribute>
       <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="FIRSTNAME" id="DC815845-4E98-B699-C3DE-AB66675458BA">
          <createdBy>oracle</createdBy>
@@ -96,17 +107,6 @@
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>30</dataTypeSize>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PASSWORD" id="32819F61-8BC7-AD52-4E05-CB1A7BC1A377">
-         <createdBy>oracle</createdBy>
-         <createdTime>2011-06-25 17:41:25 UTC</createdTime>
-         <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
-         <ownerDesignName>schema</ownerDesignName>
-         <shouldEngineer>false</shouldEngineer>
-         <use>1</use>
-         <logicalDatatype>LOGDT037</logicalDatatype>
-         <dataTypeSize>50</dataTypeSize>
       </Attribute>
       <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CITY" id="B58F2133-3F07-8FD4-955D-C596BB1C1DC4">
          <createdBy>oracle</createdBy>
@@ -132,11 +132,11 @@
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>50</dataTypeSize>
       </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="E-MAIL" id="4979D673-EB91-4756-E61D-463A526F26FC">
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EMAIL" id="4979D673-EB91-4756-E61D-463A526F26FC">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:43:22 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 07:40:55 UTC</changedTime>
+         <changedTime>2011-06-28 11:22:01 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <shouldEngineer>false</shouldEngineer>
          <nullsAllowed>true</nullsAllowed>
