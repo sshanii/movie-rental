@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Logical - Views" id="A1B68223-F6C0-5003-C0B2-47E21C36910F">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:16:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:44:01 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>1</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="30455534-EEFA-EDA4-BDF5-D43B09449BE3" otype="EntityView" vid="C65CBF72-B9CC-6572-2055-D36594B2561D">
+         <bounds x="339" y="33" width="226" height="130"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="682A61D3-43A1-6A9D-74AE-93AD1B43FDCC" otype="EntityView" vid="F83CCFE8-336D-DFEE-82D1-4B7090072C0F">
+         <bounds x="659" y="163" width="238" height="85"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="7C5D6AF3-ECA5-4006-48DF-47DAC26C8207" otype="EntityView" vid="04E6C08D-98F2-C204-778A-76DCBE76A65A">
+         <bounds x="345" y="266" width="226" height="145"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="8EEF275A-647F-B683-34E4-2A5D973A23A6" otype="EntityView" vid="C83E5E39-F357-FCF9-137C-989ED2EAF18B">
+         <bounds x="657" y="44" width="246" height="70"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="B420DD51-47F7-DEFD-B627-D6B42492C788" otype="EntityView" vid="51C251F9-C3C7-A6F6-EF67-0AF1BE7BDA77">
+         <bounds x="51" y="270" width="226" height="145"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="BE75BFA4-091C-0278-0DF2-0C6D125875C3" otype="EntityView" vid="A2502199-8A7D-CA6A-AAC7-DB0F1E6B5BAF">
+         <bounds x="47" y="32" width="207" height="175"/>
+      </OView>
+   </objectViews>
+</Diagram>

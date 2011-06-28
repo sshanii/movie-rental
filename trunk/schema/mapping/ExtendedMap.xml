@@ -1,6 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <ExtendedMap class="oracle.dbtools.crest.model.xtdmapping.ExtendedMap">
    <mappings>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="02CA6488-9918-3773-5597-A111037D7BB461136D41-8752-41C4-4936-439A2EC966A3">
+         <creationTime>1309277450300</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>02CA6488-9918-3773-5597-A111037D7BB4</ownerID>
+         <ownerName>Roles PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>FC83654F-2E62-4F63-7B4A-AE7B463E4276</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>61136D41-8752-41C4-4936-439A2EC966A3</targetID>
+         <targetName>Roles PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="02CA6488-9918-3773-5597-A111037D7BB47A782A34-8E3F-9ECE-3465-A38FFC70E4E3">
          <creationTime>1309170220304</creationTime>
          <fwEngineer>false</fwEngineer>
@@ -15,7 +34,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>B0114532-F0A6-89B6-A850-718DD7924285</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>7A782A34-8E3F-9ECE-3465-A38FFC70E4E3</targetID>
          <targetName>Roles PK</targetName>
          <targettype>6</targettype>
@@ -34,8 +53,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>87058CF2-C648-C59C-3EC4-7568A504A73A</targetID>
+         <targetName>ID_ORDER</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="031C3B14-CBB0-FBD2-C65C-5FBE424AFBA691BB75FA-EE7F-1B52-A983-5684A3A1CB20">
+         <creationTime>1309277450288</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>031C3B14-CBB0-FBD2-C65C-5FBE424AFBA6</ownerID>
+         <ownerName>ID_ORDER</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>3721130B-4223-25F4-7E0D-F53A36443918</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>91BB75FA-EE7F-1B52-A983-5684A3A1CB20</targetID>
          <targetName>ID_ORDER</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -53,8 +91,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>7770B411-56AE-EB63-8874-49C5609C2A9E</targetID>
+         <targetName>Orders PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="06703D8A-103B-5CFF-468D-CE114E675C1FB8048B3D-4588-67FA-9E4A-7114A4B96286">
+         <creationTime>1309277450290</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>06703D8A-103B-5CFF-468D-CE114E675C1F</ownerID>
+         <ownerName>Orders PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>3721130B-4223-25F4-7E0D-F53A36443918</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>B8048B3D-4588-67FA-9E4A-7114A4B96286</targetID>
          <targetName>Orders PK</targetName>
          <targettype>6</targettype>
       </Mapping>
@@ -70,14 +127,31 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>B0114532-F0A6-89B6-A850-718DD7924285</targetID>
+         <targetName>ROLES</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5FC83654F-2E62-4F63-7B4A-AE7B463E4276">
+         <creationTime>1309277450298</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerID>
+         <ownerName>ROLES</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>FC83654F-2E62-4F63-7B4A-AE7B463E4276</targetID>
          <targetName>ROLES</targetName>
          <targettype>4</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="08ACCCEE-A153-C566-3E2D-7B47DCD22BD414CEFA37-BAEB-78B0-9DB7-EE4014EC7E3C">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -89,8 +163,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>14CEFA37-BAEB-78B0-9DB7-EE4014EC7E3C</targetID>
+         <targetName>LASTNAME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="08ACCCEE-A153-C566-3E2D-7B47DCD22BD4D1F74703-C810-84E1-DB03-7B9C5363417B">
+         <creationTime>1309277450305</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>08ACCCEE-A153-C566-3E2D-7B47DCD22BD4</ownerID>
+         <ownerName>LASTNAME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>D1F74703-C810-84E1-DB03-7B9C5363417B</targetID>
          <targetName>LASTNAME</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -108,9 +201,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>77820712-1B05-20AD-0930-076A04EEF30C</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>175E3E13-49FE-042B-F965-349B2C8C612C</targetID>
          <targetName>ID_DATA_MEDIUM</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="0E1CF16F-1B19-6984-46FD-A04F3B8B6137D0E9A811-0001-3A73-3293-F6D67A744533">
+         <creationTime>1309277450268</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>0E1CF16F-1B19-6984-46FD-A04F3B8B6137</ownerID>
+         <ownerName>ID_DATA_MEDIUM</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>0A074AA8-C6B8-235F-7F4F-92CA7E837A2A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>D0E9A811-0001-3A73-3293-F6D67A744533</targetID>
+         <targetName>ID_DATA_MEDIUM</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="16AC2D36-8479-9D41-3FD9-E1DD7ADC988C394EE4DF-1088-B823-4991-A684F252B080">
+         <creationTime>1309277450269</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>16AC2D36-8479-9D41-3FD9-E1DD7ADC988C</ownerID>
+         <ownerName>NAME_DATA_MEDIUM</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>0A074AA8-C6B8-235F-7F4F-92CA7E837A2A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>394EE4DF-1088-B823-4991-A684F252B080</targetID>
+         <targetName>NAME_DATA_MEDIUM</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="16AC2D36-8479-9D41-3FD9-E1DD7ADC988C3C83FEA3-15C0-F9B9-3556-01C569822B43">
@@ -127,7 +258,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>77820712-1B05-20AD-0930-076A04EEF30C</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>3C83FEA3-15C0-F9B9-3556-01C569822B43</targetID>
          <targetName>NAME_DATA_MEDIUM</targetName>
          <targettype>5</targettype>
@@ -146,14 +277,52 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>86C13204-685C-7F89-4799-9CB0F3800DAE</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>823C5D40-3785-B9FF-EE48-132DAE6BEEB5</targetID>
          <targetName>FIRSTNAME</targetName>
          <targettype>5</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="1713F631-ECC3-5748-8ABA-0A745564C12DF02DA43D-7678-320D-879B-6DBE6B8CFC74">
+         <creationTime>1309277450264</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>1713F631-ECC3-5748-8ABA-0A745564C12D</ownerID>
+         <ownerName>FIRSTNAME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>B975C114-5547-445E-2F1D-E93F2A022410</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>F02DA43D-7678-320D-879B-6DBE6B8CFC74</targetID>
+         <targetName>FIRSTNAME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="2156E2C5-A8E6-2CF9-E693-7ED503C0FE4E218517B4-9084-23C9-03D1-3D20799A7F22">
+         <creationTime>1309277450307</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>2156E2C5-A8E6-2CF9-E693-7ED503C0FE4E</ownerID>
+         <ownerName>TELEPHONE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>218517B4-9084-23C9-03D1-3D20799A7F22</targetID>
+         <targetName>TELEPHONE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="2156E2C5-A8E6-2CF9-E693-7ED503C0FE4E42F80C01-2A39-FC55-87AB-90BE1FCC0657">
          <creationTime>1309170220312</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -165,7 +334,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>42F80C01-2A39-FC55-87AB-90BE1FCC0657</targetID>
          <targetName>TELEPHONE</targetName>
          <targettype>5</targettype>
@@ -182,10 +351,44 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32</targetID>
          <targetName>GENRES</targetName>
          <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="2DF5080D-A5AC-4CF2-C452-5A785D6525A2D35ECCD3-563B-4CB8-1666-A0EF026DD286">
+         <creationTime>1309277450277</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerID>
+         <ownerName>GENRES</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>D35ECCD3-563B-4CB8-1666-A0EF026DD286</targetID>
+         <targetName>GENRES</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="30455534-EEFA-EDA4-BDF5-D43B09449BE305DE0DF0-A5CA-5A98-E758-102EA561A309">
+         <creationTime>1309277450403</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>30455534-EEFA-EDA4-BDF5-D43B09449BE3</ownerID>
+         <ownerName>VIEW_MOVIES</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>05DE0DF0-A5CA-5A98-E758-102EA561A309</targetID>
+         <targetName>VIEW_MOVIES</targetName>
+         <targettype>-1</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="30455534-EEFA-EDA4-BDF5-D43B09449BE3B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726">
          <creationTime>1309170220350</creationTime>
@@ -199,10 +402,29 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>B0DF872E-CA6B-EB89-C5DA-07A8E1E5B726</targetID>
          <targetName>VIEW_MOVIES</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3163C4E5-2B40-31CF-0FED-136E7C3D9ECC2BB915C5-3579-AB1F-EB15-39A867B9706A">
+         <creationTime>1309277450284</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>3163C4E5-2B40-31CF-0FED-136E7C3D9ECC</ownerID>
+         <ownerName>ID_DATA_MEDIUM</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>2BB915C5-3579-AB1F-EB15-39A867B9706A</targetID>
+         <targetName>ID_DATA_MEDIUM</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3163C4E5-2B40-31CF-0FED-136E7C3D9ECC45E21607-8EB8-BC32-3097-5810A37A222C">
          <creationTime>1309170220292</creationTime>
@@ -218,14 +440,14 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>45E21607-8EB8-BC32-3097-5810A37A222C</targetID>
          <targetName>ID_DATA_MEDIUM</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="32819F61-8BC7-AD52-4E05-CB1A7BC1A3770BFF901F-C1C7-697C-00CB-9B598E2D533A">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -237,9 +459,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>0BFF901F-C1C7-697C-00CB-9B598E2D533A</targetID>
          <targetName>PASSWORD</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="32819F61-8BC7-AD52-4E05-CB1A7BC1A377CFF71A98-9EAB-19C1-D87F-08CFD7CE09B2">
+         <creationTime>1309277450304</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>32819F61-8BC7-AD52-4E05-CB1A7BC1A377</ownerID>
+         <ownerName>PASSWORD</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>CFF71A98-9EAB-19C1-D87F-08CFD7CE09B2</targetID>
+         <targetName>PASSWORD</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="340DE5EB-1DF3-91FB-C2CF-42441DBF02D13922AFAE-E0F0-024E-4C79-DF0667E1EF60">
+         <creationTime>1309277450282</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>340DE5EB-1DF3-91FB-C2CF-42441DBF02D1</ownerID>
+         <ownerName>TITLE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>3922AFAE-E0F0-024E-4C79-DF0667E1EF60</targetID>
+         <targetName>TITLE</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="340DE5EB-1DF3-91FB-C2CF-42441DBF02D194A82394-05E2-14BD-8066-E61919BEC179">
@@ -256,7 +516,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>94A82394-05E2-14BD-8066-E61919BEC179</targetID>
          <targetName>TITLE</targetName>
          <targettype>5</targettype>
@@ -275,9 +535,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>2597F5F7-5A5B-AC81-513C-3B22B5DCBEBC</targetID>
          <targetName>ID_GENRE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3B1BCB6A-85FE-0686-B348-C6359764AE175F2902F0-E8C4-B67E-BBDF-2F29579B507A">
+         <creationTime>1309277450284</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>3B1BCB6A-85FE-0686-B348-C6359764AE17</ownerID>
+         <ownerName>ID_GENRE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5F2902F0-E8C4-B67E-BBDF-2F29579B507A</targetID>
+         <targetName>ID_GENRE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A78685D4129D-1C7B-ACF8-2D2D-77888C96F64F">
+         <creationTime>1309277450273</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A786</ownerID>
+         <ownerName>NAME_DISCOUNT</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>4409155E-59E9-8FD6-B757-0746034EDA95</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>85D4129D-1C7B-ACF8-2D2D-77888C96F64F</targetID>
+         <targetName>NAME_DISCOUNT</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A786EC1ABB3D-473C-DFCA-AEEF-F0CD1C5FC333">
@@ -294,10 +592,29 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>19949187-58EE-EE00-EED8-CBEB1346D1AD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>EC1ABB3D-473C-DFCA-AEEF-F0CD1C5FC333</targetID>
          <targetName>NAME_DISCOUNT</targetName>
          <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4057E9BD-F7D8-610B-468D-035361FEC347F1C4D143-3B9B-0A7C-004A-ED0407A7D6D5">
+         <creationTime>1309277450269</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>4057E9BD-F7D8-610B-468D-035361FEC347</ownerID>
+         <ownerName>DataMedium PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>0A074AA8-C6B8-235F-7F4F-92CA7E837A2A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>F1C4D143-3B9B-0A7C-004A-ED0407A7D6D5</targetID>
+         <targetName>DataMedium PK</targetName>
+         <targettype>6</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4057E9BD-F7D8-610B-468D-035361FEC347F8097815-FF3E-7486-840F-172B8FAE2D5D">
          <creationTime>1309170220280</creationTime>
@@ -313,7 +630,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>77820712-1B05-20AD-0930-076A04EEF30C</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>F8097815-FF3E-7486-840F-172B8FAE2D5D</targetID>
          <targetName>DataMedium PK</targetName>
          <targettype>6</targettype>
@@ -332,14 +649,33 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>19949187-58EE-EE00-EED8-CBEB1346D1AD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>1E18C40D-9672-15A7-CD15-E4900489AB64</targetID>
+         <targetName>VALUE_DISCOUNT</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="457834EB-B00B-0631-FF7F-4642539D409673F35B49-0D47-92FC-77CA-D2AF202E2908">
+         <creationTime>1309277450274</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>457834EB-B00B-0631-FF7F-4642539D4096</ownerID>
+         <ownerName>VALUE_DISCOUNT</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>4409155E-59E9-8FD6-B757-0746034EDA95</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>73F35B49-0D47-92FC-77CA-D2AF202E2908</targetID>
          <targetName>VALUE_DISCOUNT</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="46613F7C-C077-724D-76CC-C5349B1B63E26DBA0559-5D56-8B50-C776-EDA822127FB4">
          <creationTime>1309170220314</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -351,14 +687,33 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>6DBA0559-5D56-8B50-C776-EDA822127FB4</targetID>
+         <targetName>Users PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="46613F7C-C077-724D-76CC-C5349B1B63E29480B4F2-FADB-7DD5-C9CD-6876C2993AE2">
+         <creationTime>1309277450309</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>46613F7C-C077-724D-76CC-C5349B1B63E2</ownerID>
+         <ownerName>Users PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>9480B4F2-FADB-7DD5-C9CD-6876C2993AE2</targetID>
          <targetName>Users PK</targetName>
          <targettype>6</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4979D673-EB91-4756-E61D-463A526F26FC4C038F6E-D04B-A272-7AEC-58C4D86D7B60">
          <creationTime>1309170220312</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -370,8 +725,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>4C038F6E-D04B-A272-7AEC-58C4D86D7B60</targetID>
+         <targetName>EMAIL</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4979D673-EB91-4756-E61D-463A526F26FC5BD9B52A-1DD0-DAA7-BC21-329934B973E5">
+         <creationTime>1309277450306</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>4979D673-EB91-4756-E61D-463A526F26FC</ownerID>
+         <ownerName>EMAIL</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5BD9B52A-1DD0-DAA7-BC21-329934B973E5</targetID>
          <targetName>EMAIL</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -387,10 +761,46 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>19949187-58EE-EE00-EED8-CBEB1346D1AD</targetID>
          <targetName>DISCOUNTS</targetName>
          <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F9254409155E-59E9-8FD6-B757-0746034EDA95">
+         <creationTime>1309277450272</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerID>
+         <ownerName>DISCOUNTS</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>4409155E-59E9-8FD6-B757-0746034EDA95</targetID>
+         <targetName>DISCOUNTS</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4F5AAA2A-3073-8A1C-3476-BC1D13B9FC862B711540-1635-7B34-37F6-D3FBCC192A41">
+         <creationTime>1309277450275</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>4F5AAA2A-3073-8A1C-3476-BC1D13B9FC86</ownerID>
+         <ownerName>Discounts PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>4409155E-59E9-8FD6-B757-0746034EDA95</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>2B711540-1635-7B34-37F6-D3FBCC192A41</targetID>
+         <targetName>Discounts PK</targetName>
+         <targettype>6</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="4F5AAA2A-3073-8A1C-3476-BC1D13B9FC86FDA5252F-92C1-1037-37C4-B6F781C05F5D">
          <creationTime>1309170220284</creationTime>
@@ -406,14 +816,14 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>19949187-58EE-EE00-EED8-CBEB1346D1AD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>FDA5252F-92C1-1037-37C4-B6F781C05F5D</targetID>
          <targetName>Discounts PK</targetName>
          <targettype>6</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="535C987F-0C62-13F7-E06E-40FA4AE29ACF595183CA-51D7-C814-D1A9-F85EFD1687CE">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -425,9 +835,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>595183CA-51D7-C814-D1A9-F85EFD1687CE</targetID>
          <targetName>REGISTER_DATE_TIME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="535C987F-0C62-13F7-E06E-40FA4AE29ACF5D3783C7-03EC-F0D0-79A2-2154C21407D5">
+         <creationTime>1309277450308</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>535C987F-0C62-13F7-E06E-40FA4AE29ACF</ownerID>
+         <ownerName>REGISTER_DATE_TIME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5D3783C7-03EC-F0D0-79A2-2154C21407D5</targetID>
+         <targetName>REGISTER_DATE_TIME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="55D0A17C-8AC2-CEA5-78C6-C40A00ED6895A0F65452-B98B-34D3-5C58-68186BFFA4F2">
+         <creationTime>1309277450264</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>55D0A17C-8AC2-CEA5-78C6-C40A00ED6895</ownerID>
+         <ownerName>LASTNAME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>B975C114-5547-445E-2F1D-E93F2A022410</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>A0F65452-B98B-34D3-5C58-68186BFFA4F2</targetID>
+         <targetName>LASTNAME</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="55D0A17C-8AC2-CEA5-78C6-C40A00ED6895E564B579-5396-96C4-B521-17837A7C137B">
@@ -444,7 +892,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>86C13204-685C-7F89-4799-9CB0F3800DAE</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E564B579-5396-96C4-B521-17837A7C137B</targetID>
          <targetName>LASTNAME</targetName>
          <targettype>5</targettype>
@@ -461,14 +909,50 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>86C13204-685C-7F89-4799-9CB0F3800DAE</targetID>
          <targetName>ACTORS</targetName>
          <targettype>4</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6004D9D1-E460-1639-6F5B-53BAA6C035E1B975C114-5547-445E-2F1D-E93F2A022410">
+         <creationTime>1309277450262</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerID>
+         <ownerName>ACTORS</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>B975C114-5547-445E-2F1D-E93F2A022410</targetID>
+         <targetName>ACTORS</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6283CC1A-12D7-3556-8BAC-E08DC096181645A8FE4C-7093-D902-3D51-4DFDBA39D877">
+         <creationTime>1309277450303</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>6283CC1A-12D7-3556-8BAC-E08DC0961816</ownerID>
+         <ownerName>ID_USER</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>45A8FE4C-7093-D902-3D51-4DFDBA39D877</targetID>
+         <targetName>ID_USER</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6283CC1A-12D7-3556-8BAC-E08DC0961816C0D12D6B-663B-A57E-A61E-C7CA8D946834">
          <creationTime>1309170220309</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -480,10 +964,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>C0D12D6B-663B-A57E-A61E-C7CA8D946834</targetID>
          <targetName>ID_USER</targetName>
          <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="682A61D3-43A1-6A9D-74AE-93AD1B43FDCCD1412671-BA22-74B6-3633-B2D53946F580">
+         <creationTime>1309280311278</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>682A61D3-43A1-6A9D-74AE-93AD1B43FDCC</ownerID>
+         <ownerName>VIEW_DISCOUNTS_USER</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>D1412671-BA22-74B6-3633-B2D53946F580</targetID>
+         <targetName>VIEW_DISCOUNTS_USER</targetName>
+         <targettype>-1</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="69491B7F-6ED3-4C44-CB30-0EEE2D2D6420155275C8-8D36-EB83-64B3-466634663536">
          <creationTime>1309170220324</creationTime>
@@ -499,10 +1000,48 @@
          <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>155275C8-8D36-EB83-64B3-466634663536</targetID>
          <targetName>DATA_MEDIUM_TO_MOVIES</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="69491B7F-6ED3-4C44-CB30-0EEE2D2D6420C27E636F-5ABC-952A-F398-D7502AB906F3">
+         <creationTime>1309277450348</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>69491B7F-6ED3-4C44-CB30-0EEE2D2D6420</ownerID>
+         <ownerName>DATA_MEDIUM_TO_MOVIES</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</realSourceEntityID>
+         <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>C27E636F-5ABC-952A-F398-D7502AB906F3</targetID>
+         <targetName>DATA_MEDIUM_TO_MOVIES</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6C6A2982-8E12-569C-9250-ABB6CF109E9E532A7857-59D9-0F64-C8BB-332D17B76D2C">
+         <creationTime>1309277450281</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>6C6A2982-8E12-569C-9250-ABB6CF109E9E</ownerID>
+         <ownerName>ID_MOVIE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>532A7857-59D9-0F64-C8BB-332D17B76D2C</targetID>
+         <targetName>ID_MOVIE</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="6C6A2982-8E12-569C-9250-ABB6CF109E9ECB325703-0457-3966-CAC7-0B9DBA7934F3">
          <creationTime>1309170220290</creationTime>
@@ -518,7 +1057,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>CB325703-0457-3966-CAC7-0B9DBA7934F3</targetID>
          <targetName>ID_MOVIE</targetName>
          <targettype>5</targettype>
@@ -537,8 +1076,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>1E797B1F-C193-328E-98C2-1424E8C15634</targetID>
+         <targetName>ID_RESERVATION</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="71B45D63-59E6-92B1-D928-BFE3931963235D385165-F585-1C3C-FBD0-589D309814D5">
+         <creationTime>1309277450293</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>71B45D63-59E6-92B1-D928-BFE393196323</ownerID>
+         <ownerName>ID_RESERVATION</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5D385165-F585-1C3C-FBD0-589D309814D5</targetID>
          <targetName>ID_RESERVATION</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -554,14 +1112,50 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetID>
          <targetName>ORDERS</targetName>
          <targettype>4</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="74AE6B41-6C6A-E14C-5833-8CD2669C1E793721130B-4223-25F4-7E0D-F53A36443918">
+         <creationTime>1309277450287</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerID>
+         <ownerName>ORDERS</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>3721130B-4223-25F4-7E0D-F53A36443918</targetID>
+         <targetName>ORDERS</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="77AC2B6F-8381-6502-30F0-331856B99FA8B1C833FA-A64A-2970-B467-095A3B516514">
+         <creationTime>1309277450308</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>77AC2B6F-8381-6502-30F0-331856B99FA8</ownerID>
+         <ownerName>ID_ROLE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>B1C833FA-A64A-2970-B467-095A3B516514</targetID>
+         <targetName>ID_ROLE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="77AC2B6F-8381-6502-30F0-331856B99FA8E71ED16F-B8F0-BEEC-925F-F4E333A685A3">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -573,7 +1167,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E71ED16F-B8F0-BEEC-925F-F4E333A685A3</targetID>
          <targetName>ID_ROLE</targetName>
          <targettype>5</targettype>
@@ -590,10 +1184,46 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>3EBF6706-C57D-64A1-0161-B490939671F6</targetID>
          <targetName>VIEW_RESERVATIONS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="7C5D6AF3-ECA5-4006-48DF-47DAC26C8207701A4049-60BA-84C1-0820-FFB3195513C6">
+         <creationTime>1309277450412</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>7C5D6AF3-ECA5-4006-48DF-47DAC26C8207</ownerID>
+         <ownerName>VIEW_RESERVATIONS</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>701A4049-60BA-84C1-0820-FFB3195513C6</targetID>
+         <targetName>VIEW_RESERVATIONS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="7FAD0E92-EB7A-73E4-C24F-445526C942710842263F-E2CE-7D4E-1F63-7C6613E5BE8D">
+         <creationTime>1309277450295</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>7FAD0E92-EB7A-73E4-C24F-445526C94271</ownerID>
+         <ownerName>ID_USER</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>0842263F-E2CE-7D4E-1F63-7C6613E5BE8D</targetID>
+         <targetName>ID_USER</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="7FAD0E92-EB7A-73E4-C24F-445526C9427108CE5EE9-F7CD-42D6-32F6-A461B6AC2AB3">
          <creationTime>1309170220300</creationTime>
@@ -609,14 +1239,33 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>08CE5EE9-F7CD-42D6-32F6-A461B6AC2AB3</targetID>
          <targetName>ID_USER</targetName>
          <targettype>5</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="80593293-C238-7E39-396E-4F4F1C96A7191CADABB1-96BF-2CF5-D609-670B25AA6234">
+         <creationTime>1309277450307</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>80593293-C238-7E39-396E-4F4F1C96A719</ownerID>
+         <ownerName>CREDIT</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>1CADABB1-96BF-2CF5-D609-670B25AA6234</targetID>
+         <targetName>CREDIT</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="80593293-C238-7E39-396E-4F4F1C96A719E1312171-FD4D-4DBC-B990-ADD1406EDC9C">
          <creationTime>1309170220313</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -628,7 +1277,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E1312171-FD4D-4DBC-B990-ADD1406EDC9C</targetID>
          <targetName>CREDIT</targetName>
          <targettype>5</targettype>
@@ -645,10 +1294,46 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetID>
          <targetName>MOVIES</targetName>
          <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="81CD461E-D801-74B9-772D-358ED4B319D9D9015FE5-E078-3C38-3BEA-DF806809BF64">
+         <creationTime>1309277450281</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerID>
+         <ownerName>MOVIES</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetID>
+         <targetName>MOVIES</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8637ACBB-5438-EE5F-46D9-1AC4D639CC5142640440-47F6-5253-99CD-2D77E13A553D">
+         <creationTime>1309277450283</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8637ACBB-5438-EE5F-46D9-1AC4D639CC51</ownerID>
+         <ownerName>CINEMA</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>42640440-47F6-5253-99CD-2D77E13A553D</targetID>
+         <targetName>CINEMA</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8637ACBB-5438-EE5F-46D9-1AC4D639CC519F714EE8-275B-8C19-BA39-2487F6A4E76F">
          <creationTime>1309170220291</creationTime>
@@ -664,9 +1349,28 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>9F714EE8-275B-8C19-BA39-2487F6A4E76F</targetID>
          <targetName>CINEMA</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E1324F0-922C-230B-EF7A-F0DE2DD049B917CC7FC1-A1A4-E645-5E9C-C6D7667D5B75">
+         <creationTime>1309277450278</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8E1324F0-922C-230B-EF7A-F0DE2DD049B9</ownerID>
+         <ownerName>NAME_GENRE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D35ECCD3-563B-4CB8-1666-A0EF026DD286</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>17CC7FC1-A1A4-E645-5E9C-C6D7667D5B75</targetID>
+         <targetName>NAME_GENRE</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E1324F0-922C-230B-EF7A-F0DE2DD049B9E39E3581-4CFA-3737-FF47-9334D233CAF0">
@@ -683,7 +1387,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E39E3581-4CFA-3737-FF47-9334D233CAF0</targetID>
          <targetName>NAME_GENRE</targetName>
          <targettype>5</targettype>
@@ -702,10 +1406,48 @@
          <realTargetEntityID>B86D8034-4CDB-1012-2F08-7DC9005A6236</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>040C12F8-DF87-E479-D51E-FB3CF72387FD</targetID>
          <targetName>USER_TO_RESERVATIONS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E278282-2373-8FCA-EF23-E09AE910D274E038FF74-5E5E-F338-B54B-853384AC465D">
+         <creationTime>1309277450396</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8E278282-2373-8FCA-EF23-E09AE910D274</ownerID>
+         <ownerName>USER_TO_RESERVATIONS</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</realSourceEntityID>
+         <realTargetEntityID>B86D8034-4CDB-1012-2F08-7DC9005A6236</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>E038FF74-5E5E-F338-B54B-853384AC465D</targetID>
+         <targetName>USER_TO_RESERVATIONS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E67A17F-924F-2C9E-2745-771F158ED8B61A3B7BB6-CCE2-CC92-1657-2E6F26AE5D66">
+         <creationTime>1309277450340</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8E67A17F-924F-2C9E-2745-771F158ED8B6</ownerID>
+         <ownerName>ACTORS_TO_MOVIES</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</realSourceEntityID>
+         <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>1A3B7BB6-CCE2-CC92-1657-2E6F26AE5D66</targetID>
+         <targetName>ACTORS_TO_MOVIES</targetName>
+         <targettype>4</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8E67A17F-924F-2C9E-2745-771F158ED8B6505D82A7-7373-DC19-71B2-C21A74BBE0E9">
          <creationTime>1309170220322</creationTime>
@@ -721,7 +1463,7 @@
          <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>505D82A7-7373-DC19-71B2-C21A74BBE0E9</targetID>
          <targetName>ACTORS_TO_MOVIES</targetName>
          <targettype>4</targettype>
@@ -740,8 +1482,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>86C13204-685C-7F89-4799-9CB0F3800DAE</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>2B176E7F-FF3A-B3CC-B5E2-5E858B5CB762</targetID>
+         <targetName>Actors PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8EAF9B99-53CC-E7CA-A797-B7F09AF8496753B51B66-3375-5B3C-ABB0-7169136452C3">
+         <creationTime>1309277450265</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8EAF9B99-53CC-E7CA-A797-B7F09AF84967</ownerID>
+         <ownerName>Actors PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>B975C114-5547-445E-2F1D-E93F2A022410</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>53B51B66-3375-5B3C-ABB0-7169136452C3</targetID>
          <targetName>Actors PK</targetName>
          <targettype>6</targettype>
       </Mapping>
@@ -752,15 +1513,51 @@
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
          <ownerID>8EEF275A-647F-B683-34E4-2A5D973A23A6</ownerID>
-         <ownerName>VIEW_DISCOUNTS</ownerName>
+         <ownerName>VIEW_DISCOUNTS_ADMIN</ownerName>
          <ownerType>-1</ownerType>
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>2A87E52F-C4EE-3BAE-06B6-422C4037CE76</targetID>
          <targetName>VIEW_DISCOUNTS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="8EEF275A-647F-B683-34E4-2A5D973A23A68F555D5A-B53A-2E1C-662C-A17DC590DD1C">
+         <creationTime>1309277450400</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>8EEF275A-647F-B683-34E4-2A5D973A23A6</ownerID>
+         <ownerName>VIEW_DISCOUNTS_ADMIN</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>8F555D5A-B53A-2E1C-662C-A17DC590DD1C</targetID>
+         <targetName>VIEW_DISCOUNTS_ADMIN</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9572411F-FCB2-0B2B-3BBD-BCC6911463BF0632D715-89E9-8D65-59E8-290328860728">
+         <creationTime>1309277450277</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>9572411F-FCB2-0B2B-3BBD-BCC6911463BF</ownerID>
+         <ownerName>ID_GENRE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D35ECCD3-563B-4CB8-1666-A0EF026DD286</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>0632D715-89E9-8D65-59E8-290328860728</targetID>
+         <targetName>ID_GENRE</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9572411F-FCB2-0B2B-3BBD-BCC6911463BF0D9F79BC-9E70-73F0-46A5-A7D10336F929">
          <creationTime>1309170220287</creationTime>
@@ -776,14 +1573,31 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>0D9F79BC-9E70-73F0-46A5-A7D10336F929</targetID>
          <targetName>ID_GENRE</targetName>
          <targettype>5</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9693CCF0-10B5-9AFF-7B69-D2129ADFF408339EC414-B15A-D5E4-D2BF-229ABA7C467A">
+         <creationTime>1309277450302</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerID>
+         <ownerName>USERS</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetID>
+         <targetName>USERS</targetName>
+         <targettype>4</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9693CCF0-10B5-9AFF-7B69-D2129ADFF40853C5D792-9019-7C5E-8B73-EB2DC8D62604">
          <creationTime>1309170220308</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
          <ownerDesignPartName>Logical</ownerDesignPartName>
@@ -793,10 +1607,29 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetID>
          <targetName>USERS</targetName>
          <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="99B4ECF0-4335-34EF-59A9-D50896A3D45FDF8CB90C-F23A-3879-80D4-465FF00DB8B8">
+         <creationTime>1309277450289</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>99B4ECF0-4335-34EF-59A9-D50896A3D45F</ownerID>
+         <ownerName>ID_DISCOUNT</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>3721130B-4223-25F4-7E0D-F53A36443918</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>DF8CB90C-F23A-3879-80D4-465FF00DB8B8</targetID>
+         <targetName>ID_DISCOUNT</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="99B4ECF0-4335-34EF-59A9-D50896A3D45FE3417E88-E913-68B1-A5D2-4F1ECFDD78A3">
          <creationTime>1309170220296</creationTime>
@@ -812,7 +1645,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E3417E88-E913-68B1-A5D2-4F1ECFDD78A3</targetID>
          <targetName>ID_DISCOUNT</targetName>
          <targettype>5</targettype>
@@ -831,9 +1664,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>817A668B-7D9F-F27D-2058-A53E04AAD763</targetID>
          <targetName>ID_USER</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="9B425B84-1261-5173-09E7-E662D7918694DD1B4531-3EDC-7769-163F-7C9EF061CAEB">
+         <creationTime>1309277450289</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>9B425B84-1261-5173-09E7-E662D7918694</ownerID>
+         <ownerName>ID_USER</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>3721130B-4223-25F4-7E0D-F53A36443918</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>DD1B4531-3EDC-7769-163F-7C9EF061CAEB</targetID>
+         <targetName>ID_USER</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="A61CD90A-5044-A79E-E63F-685A340D21F3859A34B7-5ED7-A0D7-DE2D-9AFAC1F36C88">
+         <creationTime>1309277450263</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>A61CD90A-5044-A79E-E63F-685A340D21F3</ownerID>
+         <ownerName>ID_ACTOR</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>B975C114-5547-445E-2F1D-E93F2A022410</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>859A34B7-5ED7-A0D7-DE2D-9AFAC1F36C88</targetID>
+         <targetName>ID_ACTOR</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="A61CD90A-5044-A79E-E63F-685A340D21F39F66F2FF-3FFC-7C45-D399-7B8A77FB6544">
@@ -850,7 +1721,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>86C13204-685C-7F89-4799-9CB0F3800DAE</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>9F66F2FF-3FFC-7C45-D399-7B8A77FB6544</targetID>
          <targetName>ID_ACTOR</targetName>
          <targettype>5</targettype>
@@ -869,9 +1740,47 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>B0114532-F0A6-89B6-A850-718DD7924285</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>AE7E803B-17B4-F41C-8A3B-B5B5F3459625</targetID>
          <targetName>ID_ROLE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="AE9E427E-C7B5-4945-A6F0-16B83812E426EBA83A78-121F-F137-5D71-86EEA3878E66">
+         <creationTime>1309277450298</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>AE9E427E-C7B5-4945-A6F0-16B83812E426</ownerID>
+         <ownerName>ID_ROLE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>FC83654F-2E62-4F63-7B4A-AE7B463E4276</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>EBA83A78-121F-F137-5D71-86EEA3878E66</targetID>
+         <targetName>ID_ROLE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="AF761268-C765-EEC7-26FE-6CA9414BBB0E26FC90F4-0378-1B1F-7D7D-C4A21CA64A1C">
+         <creationTime>1309277450283</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>AF761268-C765-EEC7-26FE-6CA9414BBB0E</ownerID>
+         <ownerName>THREE_DIMENSIONAL</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>26FC90F4-0378-1B1F-7D7D-C4A21CA64A1C</targetID>
+         <targetName>THREE_DIMENSIONAL</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="AF761268-C765-EEC7-26FE-6CA9414BBB0E2D6C11B8-A450-8346-05A6-2DECFB2DDD12">
@@ -888,9 +1797,28 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>2D6C11B8-A450-8346-05A6-2DECFB2DDD12</targetID>
          <targetName>THREE_DIMENSIONAL</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B0D9A0AD-9621-8778-C6E5-040E1C49ADC35A46B66B-0283-A427-7CC8-ACF78F6414AA">
+         <creationTime>1309277450294</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>B0D9A0AD-9621-8778-C6E5-040E1C49ADC3</ownerID>
+         <ownerName>RES_END_DATE_TIME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5A46B66B-0283-A427-7CC8-ACF78F6414AA</targetID>
+         <targetName>RES_END_DATE_TIME</targetName>
          <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B0D9A0AD-9621-8778-C6E5-040E1C49ADC3A7C66684-2BD0-CC51-96F7-6F8548DCB7B4">
@@ -907,10 +1835,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>A7C66684-2BD0-CC51-96F7-6F8548DCB7B4</targetID>
          <targetName>RES_END_DATE_TIME</targetName>
          <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B420DD51-47F7-DEFD-B627-D6B42492C788346A1EC3-3BD4-A93E-305B-DE40C91F45D3">
+         <creationTime>1309277450407</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>B420DD51-47F7-DEFD-B627-D6B42492C788</ownerID>
+         <ownerName>VIEW_ORDERS</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>346A1EC3-3BD4-A93E-305B-DE40C91F45D3</targetID>
+         <targetName>VIEW_ORDERS</targetName>
+         <targettype>-1</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B420DD51-47F7-DEFD-B627-D6B42492C788723E9C02-8FC5-2727-7C6A-181904637E08">
          <creationTime>1309170220355</creationTime>
@@ -924,14 +1869,33 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>723E9C02-8FC5-2727-7C6A-181904637E08</targetID>
          <targetName>VIEW_ORDERS</targetName>
          <targettype>-1</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B58F2133-3F07-8FD4-955D-C596BB1C1DC44B80E5C7-586D-4E82-97B5-86F982A72C9E">
+         <creationTime>1309277450305</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>B58F2133-3F07-8FD4-955D-C596BB1C1DC4</ownerID>
+         <ownerName>CITY</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>4B80E5C7-586D-4E82-97B5-86F982A72C9E</targetID>
+         <targetName>CITY</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B58F2133-3F07-8FD4-955D-C596BB1C1DC4862CF0AD-3CF0-2296-7C32-5F24CD2A8C19">
          <creationTime>1309170220311</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -943,7 +1907,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>862CF0AD-3CF0-2296-7C32-5F24CD2A8C19</targetID>
          <targetName>CITY</targetName>
          <targettype>5</targettype>
@@ -962,10 +1926,46 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>5B2FE36C-0B13-8CB5-0D1C-26D018AC4942</targetID>
          <targetName>Reservations PK</targetName>
          <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B62C9F4C-0085-33BA-7599-45B2D4F7C0E769C11170-62E4-FA8A-F249-2595E351A2D5">
+         <creationTime>1309277450296</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>B62C9F4C-0085-33BA-7599-45B2D4F7C0E7</ownerID>
+         <ownerName>Reservations PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>69C11170-62E4-FA8A-F249-2595E351A2D5</targetID>
+         <targetName>Reservations PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B86D8034-4CDB-1012-2F08-7DC9005A62368A73063F-AC60-C57F-4DCB-C3568FB9466F">
+         <creationTime>1309277450292</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerID>
+         <ownerName>RESERVATIONS</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetID>
+         <targetName>RESERVATIONS</targetName>
+         <targettype>4</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="B86D8034-4CDB-1012-2F08-7DC9005A6236BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD">
          <creationTime>1309170220298</creationTime>
@@ -979,10 +1979,27 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetID>
          <targetName>RESERVATIONS</targetName>
          <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="BE75BFA4-091C-0278-0DF2-0C6D125875C3590FEB7B-98BD-5FF3-55E1-A9EB32232DF9">
+         <creationTime>1309277450416</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>BE75BFA4-091C-0278-0DF2-0C6D125875C3</ownerID>
+         <ownerName>VIEW_USERS</ownerName>
+         <ownerType>-1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</targetID>
+         <targetName>VIEW_USERS</targetName>
+         <targettype>-1</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="BE75BFA4-091C-0278-0DF2-0C6D125875C3A1674FC4-9F6D-1867-D976-6C15E3D01944">
          <creationTime>1309170220362</creationTime>
@@ -996,10 +2013,29 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>A1674FC4-9F6D-1867-D976-6C15E3D01944</targetID>
          <targetName>VIEW_USERS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C06DE044-5C68-AA64-3374-09142666F7B01306AA95-6BD7-CDB0-EE94-1DDD95FC7841">
+         <creationTime>1309277450272</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>C06DE044-5C68-AA64-3374-09142666F7B0</ownerID>
+         <ownerName>ID_DISCOUNT</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>4409155E-59E9-8FD6-B757-0746034EDA95</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>1306AA95-6BD7-CDB0-EE94-1DDD95FC7841</targetID>
+         <targetName>ID_DISCOUNT</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C06DE044-5C68-AA64-3374-09142666F7B0437C58CE-2F84-E932-7F6D-F32327497AE6">
          <creationTime>1309170220283</creationTime>
@@ -1015,14 +2051,33 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>19949187-58EE-EE00-EED8-CBEB1346D1AD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>437C58CE-2F84-E932-7F6D-F32327497AE6</targetID>
          <targetName>ID_DISCOUNT</targetName>
          <targettype>5</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C37B7C4A-AE15-E5C5-7EDF-33B9097FDCB81EF2ABA6-F43A-AE16-2621-67E6C836999D">
+         <creationTime>1309277450306</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>C37B7C4A-AE15-E5C5-7EDF-33B9097FDCB8</ownerID>
+         <ownerName>STREET_ADDRESS</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>1EF2ABA6-F43A-AE16-2621-67E6C836999D</targetID>
+         <targetName>STREET_ADDRESS</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C37B7C4A-AE15-E5C5-7EDF-33B9097FDCB8E83B1393-8059-826F-AFF3-384F993DE47A">
          <creationTime>1309170220311</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1034,7 +2089,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>E83B1393-8059-826F-AFF3-384F993DE47A</targetID>
          <targetName>STREET_ADDRESS</targetName>
          <targettype>5</targettype>
@@ -1053,10 +2108,48 @@
          <realTargetEntityID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>93A73867-09C0-0C1F-254A-CBA437298375</targetID>
          <targetName>ROLE_TO_USERS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C41221FF-0C7E-0294-FA1B-E28A1CC9B7E4E4B4F822-D689-A4B8-293E-8C1ACF413550">
+         <creationTime>1309277450390</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>C41221FF-0C7E-0294-FA1B-E28A1CC9B7E4</ownerID>
+         <ownerName>ROLE_TO_USERS</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</realSourceEntityID>
+         <realTargetEntityID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>E4B4F822-D689-A4B8-293E-8C1ACF413550</targetID>
+         <targetName>ROLE_TO_USERS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C8733CC2-AA07-A700-AA76-47D30F156D99430FD6D6-9274-7954-7D23-E07E98F25875">
+         <creationTime>1309277450282</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>C8733CC2-AA07-A700-AA76-47D30F156D99</ownerID>
+         <ownerName>YEAR</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>430FD6D6-9274-7954-7D23-E07E98F25875</targetID>
+         <targetName>YEAR</targetName>
+         <targettype>5</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="C8733CC2-AA07-A700-AA76-47D30F156D99AEE1229C-5C4B-E921-2FDE-2200D31CE3E8">
          <creationTime>1309170220291</creationTime>
@@ -1072,10 +2165,48 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>AEE1229C-5C4B-E921-2FDE-2200D31CE3E8</targetID>
          <targetName>YEAR</targetName>
          <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="CC8E6723-B19E-5192-F39D-30D81FA8BAFAE96C1BF4-DFC2-D18A-6F94-949A2BA45235">
+         <creationTime>1309277450359</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>CC8E6723-B19E-5192-F39D-30D81FA8BAFA</ownerID>
+         <ownerName>DISCOUNTS_TO_USERS</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</realSourceEntityID>
+         <realTargetEntityID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>E96C1BF4-DFC2-D18A-6F94-949A2BA45235</targetID>
+         <targetName>DISCOUNTS_TO_USERS</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="CE64A4D9-1683-960B-190D-5738F49ED3C93A13A7DD-BCCC-E5AE-48F9-145D7BDFD15F">
+         <creationTime>1309277450285</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>81CD461E-D801-74B9-772D-358ED4B319D9</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>CE64A4D9-1683-960B-190D-5738F49ED3C9</ownerID>
+         <ownerName>Movies PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D9015FE5-E078-3C38-3BEA-DF806809BF64</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>3A13A7DD-BCCC-E5AE-48F9-145D7BDFD15F</targetID>
+         <targetName>Movies PK</targetName>
+         <targettype>6</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="CE64A4D9-1683-960B-190D-5738F49ED3C97934382E-5231-7B84-D277-D017CDAE8080">
          <creationTime>1309170220293</creationTime>
@@ -1091,7 +2222,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>05AAFE6F-8F69-8DBB-126B-F02308061DAF</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>7934382E-5231-7B84-D277-D017CDAE8080</targetID>
          <targetName>Movies PK</targetName>
          <targettype>6</targettype>
@@ -1110,8 +2241,27 @@
          <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>598E6AFA-C2A2-7A4E-FB35-E6052655A745</targetID>
+         <targetName>ORDERS_TO_MOVIES</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="D5994098-6C4D-2D3E-801C-28991F51D445B7399A2B-7F9E-D8DF-F983-F58DE8E0C266">
+         <creationTime>1309277450377</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>D5994098-6C4D-2D3E-801C-28991F51D445</ownerID>
+         <ownerName>ORDERS_TO_MOVIES</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</realSourceEntityID>
+         <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>B7399A2B-7F9E-D8DF-F983-F58DE8E0C266</targetID>
          <targetName>ORDERS_TO_MOVIES</targetName>
          <targettype>4</targettype>
       </Mapping>
@@ -1129,14 +2279,33 @@
          <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>80FADECC-E47E-0F86-BC29-C8FB52A88DB9</targetID>
+         <targetName>GENRE_TO_MOVIES</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="DC13EAE6-A011-4D1A-28E3-03DD74D5590983507AC8-9CCF-06FB-1658-13734EC67A47">
+         <creationTime>1309277450366</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</ownerID>
+         <ownerName>GENRE_TO_MOVIES</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</realSourceEntityID>
+         <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>83507AC8-9CCF-06FB-1658-13734EC67A47</targetID>
          <targetName>GENRE_TO_MOVIES</targetName>
          <targettype>-1</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="DC815845-4E98-B699-C3DE-AB66675458BA5768F65C-DAB5-9938-E629-F624398C204D">
          <creationTime>1309170220310</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1148,8 +2317,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>5768F65C-DAB5-9938-E629-F624398C204D</targetID>
+         <targetName>FIRSTNAME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="DC815845-4E98-B699-C3DE-AB66675458BA57F7CF43-9D4F-8F7B-0921-6A8F7E4CCDAE">
+         <creationTime>1309277450304</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>DC815845-4E98-B699-C3DE-AB66675458BA</ownerID>
+         <ownerName>FIRSTNAME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>57F7CF43-9D4F-8F7B-0921-6A8F7E4CCDAE</targetID>
          <targetName>FIRSTNAME</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -1167,10 +2355,48 @@
          <realTargetEntityID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>211BFE0F-56EF-EE8C-46E9-43D5CCDF8BA8</targetID>
          <targetName>USER_TO_ORDERS</targetName>
          <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E1723978-B931-B0D1-6524-6ADDDF5FD0E29DFDE06B-3741-2025-77FE-5C43847FE7E4">
+         <creationTime>1309277450393</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>E1723978-B931-B0D1-6524-6ADDDF5FD0E2</ownerID>
+         <ownerName>USER_TO_ORDERS</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</realSourceEntityID>
+         <realTargetEntityID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>9DFDE06B-3741-2025-77FE-5C43847FE7E4</targetID>
+         <targetName>USER_TO_ORDERS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E184AB80-57C8-A67C-0AE1-E3A55F34EA455175E5DE-63C4-23A2-D333-268BFF5DB52D">
+         <creationTime>1309277450386</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>E184AB80-57C8-A67C-0AE1-E3A55F34EA45</ownerID>
+         <ownerName>RESERVATIONS_TO_MOVIES</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>B86D8034-4CDB-1012-2F08-7DC9005A6236</realSourceEntityID>
+         <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>5175E5DE-63C4-23A2-D333-268BFF5DB52D</targetID>
+         <targetName>RESERVATIONS_TO_MOVIES</targetName>
+         <targettype>4</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E184AB80-57C8-A67C-0AE1-E3A55F34EA458382E6D2-A379-2892-7882-D7CF416DCC06">
          <creationTime>1309170220342</creationTime>
@@ -1186,9 +2412,26 @@
          <realTargetEntityID>81CD461E-D801-74B9-772D-358ED4B319D9</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>8382E6D2-A379-2892-7882-D7CF416DCC06</targetID>
          <targetName>RESERVATIONS_TO_MOVIES</targetName>
+         <targettype>4</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E7FADE37-10A0-E6D4-C0AA-A5C94B158C510A074AA8-C6B8-235F-7F4F-92CA7E837A2A">
+         <creationTime>1309277450267</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>E7FADE37-10A0-E6D4-C0AA-A5C94B158C51</ownerID>
+         <ownerName>DATA_MEDIUM</ownerName>
+         <ownerType>0</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>0A074AA8-C6B8-235F-7F4F-92CA7E837A2A</targetID>
+         <targetName>DATA_MEDIUM</targetName>
          <targettype>4</targettype>
       </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="E7FADE37-10A0-E6D4-C0AA-A5C94B158C5177820712-1B05-20AD-0930-076A04EEF30C">
@@ -1203,7 +2446,7 @@
          <propagateName>false</propagateName>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>77820712-1B05-20AD-0930-076A04EEF30C</targetID>
          <targetName>DATA_MEDIUM</targetName>
          <targettype>4</targettype>
@@ -1222,8 +2465,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>B0114532-F0A6-89B6-A850-718DD7924285</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>8DA36AFB-2C8F-07F6-05E5-2D217338ED01</targetID>
+         <targetName>NAME_ROLE</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="F34D6046-21E9-B038-1F72-EC57CE2D1655CBE569E3-4713-1A5F-00C0-5B96A0D72E44">
+         <creationTime>1309277450299</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>07F85FE9-DEDF-02D8-44FF-833FEB8C9ED5</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>F34D6046-21E9-B038-1F72-EC57CE2D1655</ownerID>
+         <ownerName>NAME_ROLE</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>FC83654F-2E62-4F63-7B4A-AE7B463E4276</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>CBE569E3-4713-1A5F-00C0-5B96A0D72E44</targetID>
          <targetName>NAME_ROLE</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -1241,14 +2503,52 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>5EB2BA32-6E14-84DA-2DBD-C0B3E22C2F32</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>CA4EB35A-293E-8E24-E37F-6D34BD1BFBEE</targetID>
          <targetName>Genres PK</targetName>
          <targettype>6</targettype>
       </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="F907BC85-4541-7411-E061-2F581196A035E7D50D77-744A-4958-4CCF-234455E917CE">
+         <creationTime>1309277450279</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>2DF5080D-A5AC-4CF2-C452-5A785D6525A2</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>F907BC85-4541-7411-E061-2F581196A035</ownerID>
+         <ownerName>Genres PK</ownerName>
+         <ownerType>2</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>D35ECCD3-563B-4CB8-1666-A0EF026DD286</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>E7D50D77-744A-4958-4CCF-234455E917CE</targetID>
+         <targetName>Genres PK</targetName>
+         <targettype>6</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FA7F3818-3673-1886-E779-64C7B24A640B1CEB8F5F-4A47-3E8F-BC86-AB00945C6A26">
+         <creationTime>1309277450303</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>FA7F3818-3673-1886-E779-64C7B24A640B</ownerID>
+         <ownerName>USERNAME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>339EC414-B15A-D5E4-D2BF-229ABA7C467A</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>1CEB8F5F-4A47-3E8F-BC86-AB00945C6A26</targetID>
+         <targetName>USERNAME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
       <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FA7F3818-3673-1886-E779-64C7B24A640BA3841E4A-F90D-9327-FF32-B7110F44ECAD">
          <creationTime>1309170220309</creationTime>
-         <fwEngineer>false</fwEngineer>
+         <fwEngineer>true</fwEngineer>
          <inheritanceType>0</inheritanceType>
          <ownerContainerID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</ownerContainerID>
          <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
@@ -1260,7 +2560,7 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>53C5D792-9019-7C5E-8B73-EB2DC8D62604</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>A3841E4A-F90D-9327-FF32-B7110F44ECAD</targetID>
          <targetName>USERNAME</targetName>
          <targettype>5</targettype>
@@ -1279,8 +2579,27 @@
          <realTargetEntityID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</realTargetEntityID>
          <revEngineer>true</revEngineer>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>7BD23D3E-DF9D-19B5-0255-F206E501331C</targetID>
+         <targetName>DISCOUNT_TO_ORDERS</targetName>
+         <targettype>-1</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FD43EB69-9F6B-C4CD-70A8-269995D80FFCB535D455-89A7-8D44-8331-AC870B06842B">
+         <creationTime>1309277450363</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>FD43EB69-9F6B-C4CD-70A8-269995D80FFC</ownerID>
+         <ownerName>DISCOUNT_TO_ORDERS</ownerName>
+         <ownerType>3</ownerType>
+         <propagateName>false</propagateName>
+         <realSourceEntityID>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</realSourceEntityID>
+         <realTargetEntityID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</realTargetEntityID>
+         <revEngineer>true</revEngineer>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>B535D455-89A7-8D44-8331-AC870B06842B</targetID>
          <targetName>DISCOUNT_TO_ORDERS</targetName>
          <targettype>-1</targettype>
       </Mapping>
@@ -1298,8 +2617,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>33DBBEA9-3863-0788-88BC-F2B7A24C0108</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>0907F02F-2395-C1B9-9D9A-9844FDE998A8</targetID>
+         <targetName>ORDER_DATE_TIME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FECDE30A-670E-22D3-C159-D9044C3CA6A875F97E99-4728-0065-2660-0AB73CE7E1F3">
+         <creationTime>1309277450289</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>74AE6B41-6C6A-E14C-5833-8CD2669C1E79</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>FECDE30A-670E-22D3-C159-D9044C3CA6A8</ownerID>
+         <ownerName>ORDER_DATE_TIME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>3721130B-4223-25F4-7E0D-F53A36443918</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>75F97E99-4728-0065-2660-0AB73CE7E1F3</targetID>
          <targetName>ORDER_DATE_TIME</targetName>
          <targettype>5</targettype>
       </Mapping>
@@ -1317,8 +2655,27 @@
          <revEngineer>true</revEngineer>
          <targetContainerID>BEB1F686-C265-6712-0EA2-1E3B2BBE0AAD</targetContainerID>
          <targetDesignPartID>DFD33C41-C431-70FB-42A8-CE9BBFF13EC4</targetDesignPartID>
-         <targetDesignPartName>MovieRental</targetDesignPartName>
+         <targetDesignPartName>OldModel</targetDesignPartName>
          <targetID>2A122A3F-7136-9749-92CA-7176BD915545</targetID>
+         <targetName>RES_START_DATE_TIME</targetName>
+         <targettype>5</targettype>
+      </Mapping>
+      <Mapping class="oracle.dbtools.crest.model.xtdmapping.XtdMapping" id="FEEFD7DA-52B8-2AC9-41E4-E322065518566C15B359-02FE-3AA1-A8B6-B928E1A825F4">
+         <creationTime>1309277450294</creationTime>
+         <fwEngineer>true</fwEngineer>
+         <inheritanceType>0</inheritanceType>
+         <ownerContainerID>B86D8034-4CDB-1012-2F08-7DC9005A6236</ownerContainerID>
+         <ownerDesignPartID>DB6CB69B-6142-769B-D29A-A3B689B57FA4</ownerDesignPartID>
+         <ownerDesignPartName>Logical</ownerDesignPartName>
+         <ownerID>FEEFD7DA-52B8-2AC9-41E4-E32206551856</ownerID>
+         <ownerName>RES_START_DATE_TIME</ownerName>
+         <ownerType>1</ownerType>
+         <propagateName>false</propagateName>
+         <revEngineer>true</revEngineer>
+         <targetContainerID>8A73063F-AC60-C57F-4DCB-C3568FB9466F</targetContainerID>
+         <targetDesignPartID>5F4455B2-99E7-D427-ED9E-20D16BE4DB09</targetDesignPartID>
+         <targetDesignPartName>Relational</targetDesignPartName>
+         <targetID>6C15B359-02FE-3AA1-A8B6-B928E1A825F4</targetID>
          <targetName>RES_START_DATE_TIME</targetName>
          <targettype>5</targettype>
       </Mapping>

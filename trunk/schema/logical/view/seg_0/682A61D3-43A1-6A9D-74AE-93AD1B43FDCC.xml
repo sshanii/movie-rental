@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="682A61D3-43A1-6A9D-74AE-93AD1B43FDCC" directorySegmentName="seg_0" name="VIEW_DISCOUNTS_USER">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:28:01 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 17:11:13 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_DISCOUNTS_USER&amp;lt;br/&amp;gt;  ( USERNAME,&amp;lt;br/&amp;gt;    PERSONNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; PERSONNAME,&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    D.VALUE_DISCOUNT&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;</where>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="D" containerID="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925"/>
+      <container alias="U" containerID="9693CCF0-10B5-9AFF-7B69-D2129ADFF408"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="USERNAME" id="8C42BEF8-DEFC-B5CB-EFF7-E524A9065F09">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:35:01 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:35:01 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (15)</dataType>
+         <reference>false</reference>
+         <referencedColumn>FA7F3818-3673-1886-E779-64C7B24A640B</referencedColumn>
+         <table>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</table>
+         <tableAlias>U</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="4A98928D-5A22-B775-98F1-4DA5E6C99963">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:35:18 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:42:41 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PERSONNAME</alias>
+         <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NAME_DISCOUNT" id="BEF8E62F-4C3B-E51A-F5BC-EC88D6FF4DC6">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:36:11 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:42:41 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NAME</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A786</referencedColumn>
+         <table>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</table>
+         <tableAlias>D</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="VALUE_DISCOUNT" id="A93980E8-1C23-413B-E71D-C4A368D5FEFB">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:36:14 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:42:41 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>VALUE</alias>
+         <dataType>NUMBER (10,2)</dataType>
+         <reference>false</reference>
+         <referencedColumn>457834EB-B00B-0631-FF7F-4642539D4096</referencedColumn>
+         <table>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</table>
+         <tableAlias>D</tableAlias>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="874E879D-93B4-A670-5B05-3F3C14175D4A" name="VALUE_DISCOUNT" relem_id="457834EB-B00B-0631-FF7F-4642539D4096" sort="DESC"/>
+   </orderByMaps>
+</EntityView>
