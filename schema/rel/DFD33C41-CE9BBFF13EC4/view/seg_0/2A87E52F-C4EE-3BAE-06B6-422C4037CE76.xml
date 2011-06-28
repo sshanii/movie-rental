@@ -3,12 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 07:41:08 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 07:41:08 UTC</changedTime>
+   <changedTime>2011-06-28 07:52:26 UTC</changedTime>
    <generatorID>8EEF275A-647F-B683-34E4-2A5D973A23A6</generatorID>
    <ownerDesignName>schema</ownerDesignName>
-   <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_6&amp;lt;br/&amp;gt;  ( NAME,&amp;lt;br/&amp;gt;    POPULARITY,&amp;lt;br/&amp;gt;    SUM_VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    COUNT(D.NAME_DISCOUNT) POPULARITY,&amp;lt;br/&amp;gt;    SUM(D.VALUE_DISCOUNT) SUM_VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    ORDERS O&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt; GROUP BY &amp;lt;br/&amp;gt;NAME_DISCOUNT(D)&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    POPULARITY DESC,&amp;lt;br/&amp;gt;    SUM_VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT</where>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_DISCOUNTS&amp;lt;br/&amp;gt;  ( NAME,&amp;lt;br/&amp;gt;    POPULARITY,&amp;lt;br/&amp;gt;    SUM_VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT NAME,&amp;lt;br/&amp;gt;    COUNT(D.NAME_DISCOUNT) POPULARITY,&amp;lt;br/&amp;gt;    SUM(D.VALUE_DISCOUNT) SUM_VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    ORDERS O&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt; GROUP BY &amp;lt;br/&amp;gt;    D.NAME_DISCOUNT&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    SUM_VALUE DESC,&amp;lt;br/&amp;gt;    POPULARITY DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -29,54 +28,41 @@
       <container alias="O" containerID="33DBBEA9-3863-0788-88BC-F2B7A24C0108"/>
    </usedContainers>
    <viewElements>
-      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_DISCOUNT" id="AC7BD4FD-15EF-D900-35BB-9AD59CBB8730">
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME" id="E2845AFF-7A06-5B7D-177A-4F58BB2D9B8D">
          <createdBy>oracle</createdBy>
-         <createdTime>2011-06-28 07:41:08 UTC</createdTime>
+         <createdTime>2011-06-28 07:52:25 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 07:41:08 UTC</changedTime>
-         <generatorID>9284EF6B-E66F-868C-6EE7-8932E4D691FF</generatorID>
+         <changedTime>2011-06-28 07:52:25 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
          <alias>NAME</alias>
          <dataType>NVARCHAR2 (30)</dataType>
+         <expression>NAME_DISCOUNT</expression>
          <reference>false</reference>
          <referencedColumn>EC1ABB3D-473C-DFCA-AEEF-F0CD1C5FC333</referencedColumn>
          <table>19949187-58EE-EE00-EED8-CBEB1346D1AD</table>
-         <tableAlias>D</tableAlias>
-         <viewID>2A87E52F-C4EE-3BAE-06B6-422C4037CE76</viewID>
       </viewElement>
-      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COUNT(D.NAME_DISCOUNT)" id="86708C5B-525E-F45B-F2A1-B1F5E14E7769" directorySegmentName="seg_0">
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="POPULARITY" id="9D8063A1-D7E2-0812-F49A-5135DFFC4792">
          <createdBy>oracle</createdBy>
-         <createdTime>2011-06-28 07:41:08 UTC</createdTime>
+         <createdTime>2011-06-28 07:52:25 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 07:41:08 UTC</changedTime>
-         <generatorID>074409F4-0B86-99E6-253C-863853C8DD92</generatorID>
+         <changedTime>2011-06-28 07:52:25 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
          <alias>POPULARITY</alias>
-         <expression>COUNT(D.NAME_DISCOUNT)</expression>
+         <expression>COUNT(D.NAME_DISCOUNT) POPULARITY</expression>
          <reference>false</reference>
-         <viewID>2A87E52F-C4EE-3BAE-06B6-422C4037CE76</viewID>
       </viewElement>
-      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SUM(D.VALUE_DISCOUNT)" id="26E5578C-46E7-EE52-42E6-D5CBD4B2DF79" directorySegmentName="seg_0">
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SUM_VALUE" id="C7D2E988-6C12-DC8C-75EA-629FB7F13D3C">
          <createdBy>oracle</createdBy>
-         <createdTime>2011-06-28 07:41:08 UTC</createdTime>
+         <createdTime>2011-06-28 07:52:25 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 07:41:08 UTC</changedTime>
-         <generatorID>F1AC172E-17D5-D3D4-39E2-6884A4199F71</generatorID>
+         <changedTime>2011-06-28 07:52:25 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
          <alias>SUM_VALUE</alias>
-         <expression>SUM(D.VALUE_DISCOUNT)</expression>
+         <expression>SUM(D.VALUE_DISCOUNT) SUM_VALUE</expression>
          <reference>false</reference>
-         <viewID>2A87E52F-C4EE-3BAE-06B6-422C4037CE76</viewID>
       </viewElement>
    </viewElements>
-   <groupByList>
-      <elementID>AC7BD4FD-15EF-D900-35BB-9AD59CBB8730</elementID>
-   </groupByList>
-   <orderByMaps>
-      <orderByElement id="F877B7FD-C4F3-54A2-6A6A-D7931248687D" name="SUM(D.VALUE_DISCOUNT)" sort="DESC"/>
-      <orderByElement id="6E464812-8479-813A-E8E7-A8F00858C1DF" name="COUNT(D.NAME_DISCOUNT)" sort="DESC"/>
-   </orderByMaps>
 </TableView>
