@@ -3,12 +3,12 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:10:50 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:12:19 UTC</changedTime>
+   <changedTime>2011-06-28 17:25:56 UTC</changedTime>
    <generatorID>30455534-EEFA-EDA4-BDF5-D43B09449BE3</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    A.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || A&amp;quot;.LASTNAME ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
-   <where>A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_GENRE = G.ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
+   <userDefinedSQL>CREATE VIEW VIEW_MOVIES&amp;lt;br/&amp;gt;  ( TITLE,&amp;lt;br/&amp;gt;    ACTOR,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    GENRE,&amp;lt;br/&amp;gt;    DATA_MEDIUM,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    CINEMA )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    A.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || A&amp;quot;.LASTNAME ACTOR,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    G.NAME_GENRE GENRE,&amp;lt;br/&amp;gt;    D.NAME_DATA_MEDIUM DATA_MEDIUM,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    M.CINEMA&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    GENRES G,&amp;lt;br/&amp;gt;    DATA_MEDIUM D,&amp;lt;br/&amp;gt;    ACTORS A,&amp;lt;br/&amp;gt;    GENRES_TO_MOVIES GM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND G.ID_GENRE = GM.GENRES_ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_MOVIE = GM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    YEAR DESC,&amp;lt;br/&amp;gt;    TITLE ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>A.ID_ACTOR = AM.ACTORS_ID_ACTOR&amp;lt;br/&amp;gt;AND M.ID_MOVIE = AM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND G.ID_GENRE = GM.GENRES_ID_GENRE&amp;lt;br/&amp;gt;AND M.ID_MOVIE = GM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND M.ID_DATA_MEDIUM = D.ID_DATA_MEDIUM</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -29,6 +29,7 @@
       <container alias="G" containerID="D35ECCD3-563B-4CB8-1666-A0EF026DD286"/>
       <container alias="D" containerID="0A074AA8-C6B8-235F-7F4F-92CA7E837A2A"/>
       <container alias="A" containerID="B975C114-5547-445E-2F1D-E93F2A022410"/>
+      <container alias="GM" containerID="710D4348-4ECD-8A18-1F20-32A8F45FE085"/>
    </usedContainers>
    <viewElements>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITLE" id="7B32017E-C777-0BBE-0C6C-D18C5C36B7BE" directorySegmentName="seg_0">

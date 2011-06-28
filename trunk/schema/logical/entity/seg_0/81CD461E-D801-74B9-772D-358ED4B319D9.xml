@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 17:49:16 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 17:18:11 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <pkName>Movies PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
@@ -103,20 +103,6 @@
          <use>1</use>
          <logicalDatatype>LOGDT006</logicalDatatype>
          <dataTypeSize>1</dataTypeSize>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID_GENRE" id="3B1BCB6A-85FE-0686-B348-C6359764AE17">
-         <createdBy>oracle</createdBy>
-         <createdTime>2011-06-25 20:37:00 UTC</createdTime>
-         <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
-         <generatorID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</generatorID>
-         <ownerDesignName>schema</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <referedAttribute>9572411F-FCB2-0B2B-3BBD-BCC6911463BF</referedAttribute>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
       </Attribute>
       <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ID_DATA_MEDIUM" id="3163C4E5-2B40-31CF-0FED-136E7C3D9ECC">
          <createdBy>oracle</createdBy>

@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:10:50 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 17:20:51 UTC</changedTime>
    <generatorID>81CD461E-D801-74B9-772D-358ED4B319D9</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <pkName>Movies PK</pkName>
@@ -107,24 +107,6 @@
          <dataTypeSize>1</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_GENRE" id="5F2902F0-E8C4-B67E-BBDF-2F29579B507A">
-         <createdBy>oracle</createdBy>
-         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
-         <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
-         <generatorID>3B1BCB6A-85FE-0686-B348-C6359764AE17</generatorID>
-         <ownerDesignName>schema</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-         <dataTypeScale>0</dataTypeScale>
-         <delegate>0632D715-89E9-8D65-59E8-290328860728</delegate>
-         <previousColumn>false</previousColumn>
-         <associations>
-            <colAssociation fkAssociation="83507AC8-9CCF-06FB-1658-13734EC67A47" referredColumn="0632D715-89E9-8D65-59E8-290328860728"/>
-         </associations>
-      </Column>
       <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_DATA_MEDIUM" id="2BB915C5-3579-AB1F-EB15-39A867B9706A">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-28 16:10:50 UTC</createdTime>
@@ -167,17 +149,6 @@
          <ownerDesignName>schema</ownerDesignName>
          <indexColumnUsage>
             <colUsage columnID="2BB915C5-3579-AB1F-EB15-39A867B9706A"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4EB42F19-6FF6-00D2-F051-D7AA97F55DD5" name="GENRE_TO_MOVIES">
-         <createdBy>oracle</createdBy>
-         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
-         <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
-         <generatorID>DC13EAE6-A011-4D1A-28E3-03DD74D55909</generatorID>
-         <ownerDesignName>schema</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="5F2902F0-E8C4-B67E-BBDF-2F29579B507A"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>
