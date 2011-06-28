@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:10:50 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:12:34 UTC</changedTime>
+   <changedTime>2011-06-28 21:09:46 UTC</changedTime>
    <generatorID>B420DD51-47F7-DEFD-B627-D6B42492C788</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USERNAME,&amp;lt;br/&amp;gt;    PERSONNAME,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME PERSONNAME,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USERNAME,&amp;lt;br/&amp;gt;    PERSONNAME,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME PERSONNAME,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    ORDERS_TO_MOVIES OM,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
@@ -26,6 +26,7 @@
    </fonts>
    <usedContainers>
       <container alias="O" containerID="3721130B-4223-25F4-7E0D-F53A36443918"/>
+      <container alias="OM" containerID="B7399A2B-7F9E-D8DF-F983-F58DE8E0C266"/>
       <container alias="M" containerID="D9015FE5-E078-3C38-3BEA-DF806809BF64"/>
       <container alias="D" containerID="4409155E-59E9-8FD6-B757-0746034EDA95"/>
       <container alias="U" containerID="339EC414-B15A-D5E4-D2BF-229ABA7C467A"/>
