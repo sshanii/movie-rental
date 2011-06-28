@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5175E5DE-63C4-23A2-D333-268BFF5DB52D" directorySegmentName="seg_0" name="RESERVATIONS_TO_MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>RESERVATIONS_TO_MOVIES__IDX</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="RESERVATIONS_ID_RESERVATION" id="6D0B076F-F7D8-CE76-C9F3-976281E51A79">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>5D385165-F585-1C3C-FBD0-589D309814D5</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="D48A7021-ABE7-E19C-062C-7BC05FABB116" referredColumn="5D385165-F585-1C3C-FBD0-589D309814D5"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MOVIES_ID_MOVIE" id="C4A27DDB-E649-9D74-6DBA-F07031F9C373">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>532A7857-59D9-0F64-C8BB-332D17B76D2C</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="A1CBBF2A-AFBB-78A1-85D9-EF3CDAB60426" referredColumn="532A7857-59D9-0F64-C8BB-332D17B76D2C"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2224E26D-7EEA-9997-9411-435DB9BF32BC" name="RESERVATIONS_TO_MOVIES__IDX">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="6D0B076F-F7D8-CE76-C9F3-976281E51A79"/>
+            <colUsage columnID="C4A27DDB-E649-9D74-6DBA-F07031F9C373"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="61899C76-E20C-E92F-D9F1-69BF17BC6186" name="RESERVATIONS_TO_MOVIES__IDX">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>E184AB80-57C8-A67C-0AE1-E3A55F34EA45</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="6D0B076F-F7D8-CE76-C9F3-976281E51A79"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4225989F-8F3C-EFB0-D72C-8841F225D6DC" name="RESERVATIONS_TO_MOVIES__IDX">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>E184AB80-57C8-A67C-0AE1-E3A55F34EA45</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="C4A27DDB-E649-9D74-6DBA-F07031F9C373"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

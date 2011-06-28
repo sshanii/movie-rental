@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="Relational - Views" id="85EEC33C-D7F0-ADA1-5EF7-74F763807B9F">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 17:04:59 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 17:05:29 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>1</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="05DE0DF0-A5CA-5A98-E758-102EA561A309" otype="View" vid="B51BD5DB-4640-CD05-82DD-E168F0C46ABA">
+         <bounds x="41" y="355" width="226" height="130"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="346A1EC3-3BD4-A93E-305B-DE40C91F45D3" otype="View" vid="EF95D00C-D7E5-2998-9566-401B9445A0FB">
+         <bounds x="298" y="30" width="226" height="145"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="590FEB7B-98BD-5FF3-55E1-A9EB32232DF9" otype="View" vid="0FCEA7DF-62F9-33C9-5CA7-024F1A107EDA">
+         <bounds x="41" y="30" width="207" height="175"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="701A4049-60BA-84C1-0820-FFB3195513C6" otype="View" vid="AF63764D-68A7-BDC1-FBBB-E16CA4E686B0">
+         <bounds x="574" y="30" width="226" height="145"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="8F555D5A-B53A-2E1C-662C-A17DC590DD1C" otype="View" vid="DB2A3552-91B9-BD34-F221-98EBAD95BFFB">
+         <bounds x="605" y="355" width="246" height="70"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="D1412671-BA22-74B6-3633-B2D53946F580" otype="View" vid="5A88F187-40E1-DDDF-C3AA-8A690D5D2A13">
+         <bounds x="317" y="355" width="238" height="85"/>
+      </OView>
+   </objectViews>
+</Diagram>

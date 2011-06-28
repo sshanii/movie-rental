@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="E038FF74-5E5E-F338-B54B-853384AC465D" directorySegmentName="seg_0" name="USER_TO_RESERVATIONS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <generatorID>8E278282-2373-8FCA-EF23-E09AE910D274</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <containerWithKeyObject>8A73063F-AC60-C57F-4DCB-C3568FB9466F</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>6E375DEA-7568-CC83-2910-7B00F8B0536D</localFKIndex>
+   <keyObject>9480B4F2-FADB-7DD5-C9CD-6876C2993AE2</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

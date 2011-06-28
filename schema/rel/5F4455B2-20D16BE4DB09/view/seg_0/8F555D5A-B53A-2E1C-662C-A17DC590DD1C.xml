@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="8F555D5A-B53A-2E1C-662C-A17DC590DD1C" directorySegmentName="seg_0" name="VIEW_DISCOUNTS_ADMIN">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:13:51 UTC</changedTime>
+   <generatorID>8EEF275A-647F-B683-34E4-2A5D973A23A6</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_6&amp;lt;br/&amp;gt;  ( NAME,&amp;lt;br/&amp;gt;    POPULARITY,&amp;lt;br/&amp;gt;    SUM_VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    COUNT(D.NAME_DISCOUNT) POPULARITY,&amp;lt;br/&amp;gt;    SUM(D.VALUE_DISCOUNT) SUM_VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    ORDERS O&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt; GROUP BY &amp;lt;br/&amp;gt;NAME_DISCOUNT(D)&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    POPULARITY DESC,&amp;lt;br/&amp;gt;    SUM_VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="D" containerID="4409155E-59E9-8FD6-B757-0746034EDA95"/>
+      <container alias="O" containerID="3721130B-4223-25F4-7E0D-F53A36443918"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_DISCOUNT" id="44B56C69-C3A3-2E67-874C-20E5DBBDDD3B">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>9284EF6B-E66F-868C-6EE7-8932E4D691FF</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NAME</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>85D4129D-1C7B-ACF8-2D2D-77888C96F64F</referencedColumn>
+         <table>4409155E-59E9-8FD6-B757-0746034EDA95</table>
+         <tableAlias>D</tableAlias>
+         <viewID>8F555D5A-B53A-2E1C-662C-A17DC590DD1C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COUNT(D.NAME_DISCOUNT)" id="12522C2F-2031-4C9A-0C6C-F1114BB6976C" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>074409F4-0B86-99E6-253C-863853C8DD92</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>POPULARITY</alias>
+         <expression>COUNT(D.NAME_DISCOUNT)</expression>
+         <reference>false</reference>
+         <viewID>8F555D5A-B53A-2E1C-662C-A17DC590DD1C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SUM(D.VALUE_DISCOUNT)" id="467C5BA4-CCFE-C4CB-961A-7F1B12E913E6" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>F1AC172E-17D5-D3D4-39E2-6884A4199F71</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SUM_VALUE</alias>
+         <expression>SUM(D.VALUE_DISCOUNT)</expression>
+         <reference>false</reference>
+         <viewID>8F555D5A-B53A-2E1C-662C-A17DC590DD1C</viewID>
+      </viewElement>
+   </viewElements>
+   <groupByList>
+      <elementID>44B56C69-C3A3-2E67-874C-20E5DBBDDD3B</elementID>
+   </groupByList>
+   <orderByMaps>
+      <orderByElement id="1DF2B2FA-6C76-0322-BD9D-67D29B0E1742" name="SUM(D.VALUE_DISCOUNT)" sort="DESC"/>
+      <orderByElement id="F483F930-A945-E804-9114-E9825C45076B" name="COUNT(D.NAME_DISCOUNT)" sort="DESC"/>
+   </orderByMaps>
+</TableView>

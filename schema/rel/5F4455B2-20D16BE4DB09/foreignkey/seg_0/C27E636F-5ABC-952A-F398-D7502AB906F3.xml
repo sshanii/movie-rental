@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="C27E636F-5ABC-952A-F398-D7502AB906F3" directorySegmentName="seg_0" name="DATA_MEDIUM_TO_MOVIES">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <generatorID>69491B7F-6ED3-4C44-CB30-0EEE2D2D6420</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <containerWithKeyObject>D9015FE5-E078-3C38-3BEA-DF806809BF64</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>61D042DA-6381-079A-BEDC-605EB638E65B</localFKIndex>
+   <keyObject>F1C4D143-3B9B-0A7C-004A-ED0407A7D6D5</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

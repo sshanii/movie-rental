@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DISCOUNTS_TO_USERS" id="CC8E6723-B19E-5192-F39D-30D81FA8BAFA" directorySegmentName="seg_0">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 15:12:35 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:08:15 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</targetEntity>
+   <transferable>true</transferable>
+</Relation>

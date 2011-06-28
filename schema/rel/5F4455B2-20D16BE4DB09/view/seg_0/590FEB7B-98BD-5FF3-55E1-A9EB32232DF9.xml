@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="590FEB7B-98BD-5FF3-55E1-A9EB32232DF9" directorySegmentName="seg_0" name="VIEW_USERS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <generatorID>BE75BFA4-091C-0278-0DF2-0C6D125875C3</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_USERS&amp;lt;br/&amp;gt;  ( NICK,&amp;lt;br/&amp;gt;    FIRSTNAME,&amp;lt;br/&amp;gt;    LASTNAME,&amp;lt;br/&amp;gt;    CITY,&amp;lt;br/&amp;gt;    STREET_ADDRESS,&amp;lt;br/&amp;gt;    E-MAIL,&amp;lt;br/&amp;gt;    TELEPHONE,&amp;lt;br/&amp;gt;    CREDIT,&amp;lt;br/&amp;gt;    ROLE,&amp;lt;br/&amp;gt;    REGISTERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.NICK,&amp;lt;br/&amp;gt;    U.FIRSTNAME,&amp;lt;br/&amp;gt;    U.LASTNAME,&amp;lt;br/&amp;gt;    U.CITY,&amp;lt;br/&amp;gt;    U.STREET_ADDRESS,&amp;lt;br/&amp;gt;    U.E-MAIL,&amp;lt;br/&amp;gt;    U.TELEPHONE,&amp;lt;br/&amp;gt;    U.CREDIT,&amp;lt;br/&amp;gt;    R.NAME_ROLE,&amp;lt;br/&amp;gt;    U.REGISTER_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ROLES R&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_ROLE = R.ID_ROLE&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    REGISTERED DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>U.ID_ROLE = R.ID_ROLE</where>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="U" containerID="339EC414-B15A-D5E4-D2BF-229ABA7C467A"/>
+      <container alias="R" containerID="FC83654F-2E62-4F63-7B4A-AE7B463E4276"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="USERNAME" id="8DA67444-12A6-AC50-BCEE-661F3DDFE0D6">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>3DADDD32-C534-58E9-34FA-E42A5F8C83BE</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (15)</dataType>
+         <reference>false</reference>
+         <referencedColumn>1CEB8F5F-4A47-3E8F-BC86-AB00945C6A26</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FIRSTNAME" id="E09515A0-930E-8F8A-7FFC-3DF6D71A9499">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>4905AABE-6D15-590E-EB0F-CF1E5A3A2386</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (20)</dataType>
+         <reference>false</reference>
+         <referencedColumn>57F7CF43-9D4F-8F7B-0921-6A8F7E4CCDAE</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LASTNAME" id="6E684441-8BFD-8C3E-2967-3B8473533DD1">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>C2EA6E47-39B6-A5AD-ED4B-F337C4E2C8FE</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>D1F74703-C810-84E1-DB03-7B9C5363417B</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CITY" id="2EB8773C-C775-9720-C2AA-9DB6AE988265">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>DB92AEB0-31B4-B72A-289C-1351DFBA3664</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>4B80E5C7-586D-4E82-97B5-86F982A72C9E</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STREET_ADDRESS" id="2C3CF700-7916-5287-6424-4AC70D433EF9">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>AB158063-1CC5-BA96-EC13-9FF5B0D64798</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <referencedColumn>1EF2ABA6-F43A-AE16-2621-67E6C836999D</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EMAIL" id="6E3E3A45-7721-F7FB-F584-DEC2C05F4D18">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>A007E3E9-711F-AA20-00EE-9D1B83A7C8D7</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <referencedColumn>5BD9B52A-1DD0-DAA7-BC21-329934B973E5</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TELEPHONE" id="894F31BE-D465-435D-59D1-9EE8851C4373">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>B096F9FB-C0ED-8483-B715-E6D3503D084A</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NUMBER (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>218517B4-9084-23C9-03D1-3D20799A7F22</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CREDIT" id="CE6E02B0-054F-E06E-73B2-4F263FD716CF">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>1CA5F850-2D2C-69EC-4870-B48A50199151</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NUMBER (10,2)</dataType>
+         <reference>false</reference>
+         <referencedColumn>1CADABB1-96BF-2CF5-D609-670B25AA6234</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_ROLE" id="E5CD59B4-39A5-1C8D-C651-414B257E08CE">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>F984AF32-751B-B8ED-49BE-B48A4EDFB32B</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ROLE</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>CBE569E3-4713-1A5F-00C0-5B96A0D72E44</referencedColumn>
+         <table>FC83654F-2E62-4F63-7B4A-AE7B463E4276</table>
+         <tableAlias>R</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REGISTER_DATE_TIME" id="32800C89-267A-1A11-14ED-92070EEC4851" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>1A3CBAA3-8C76-A7E5-1302-4BA40FE04ACE</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>REGISTERED</alias>
+         <dataType>DATE</dataType>
+         <reference>false</reference>
+         <referencedColumn>5D3783C7-03EC-F0D0-79A2-2154C21407D5</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>590FEB7B-98BD-5FF3-55E1-A9EB32232DF9</viewID>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="60A73EF5-A8F3-D29D-7191-78D1132A58E7" name="REGISTER_DATE_TIME" relem_id="5D3783C7-03EC-F0D0-79A2-2154C21407D5" sort="DESC"/>
+   </orderByMaps>
+</TableView>

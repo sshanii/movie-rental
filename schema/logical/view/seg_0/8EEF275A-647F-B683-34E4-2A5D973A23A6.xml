@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="8EEF275A-647F-B683-34E4-2A5D973A23A6" directorySegmentName="seg_0" name="VIEW_DISCOUNTS">
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="8EEF275A-647F-B683-34E4-2A5D973A23A6" directorySegmentName="seg_0" name="VIEW_DISCOUNTS_ADMIN">
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 06:31:36 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 07:47:07 UTC</changedTime>
+   <changedTime>2011-06-28 16:14:13 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
    <userDefinedSQL>CREATE VIEW VIEW_6&amp;lt;br/&amp;gt;  ( NAME,&amp;lt;br/&amp;gt;    POPULARITY,&amp;lt;br/&amp;gt;    SUM_VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    COUNT(D.NAME_DISCOUNT) POPULARITY,&amp;lt;br/&amp;gt;    SUM(D.VALUE_DISCOUNT) SUM_VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    ORDERS O&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt; GROUP BY &amp;lt;br/&amp;gt;NAME_DISCOUNT(D)&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    POPULARITY DESC,&amp;lt;br/&amp;gt;    SUM_VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>

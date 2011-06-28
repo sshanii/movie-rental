@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="D1412671-BA22-74B6-3633-B2D53946F580" directorySegmentName="seg_0" name="VIEW_DISCOUNTS_USER">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:58:31 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 17:10:57 UTC</changedTime>
+   <generatorID>682A61D3-43A1-6A9D-74AE-93AD1B43FDCC</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_DISCOUNTS_USER&amp;lt;br/&amp;gt;  ( USERNAME,&amp;lt;br/&amp;gt;    PERSONNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME PERSONNAME,&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT NAME,&amp;lt;br/&amp;gt;    D.VALUE_DISCOUNT VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    DISCOUNTS_TO_USERS DU&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;</where>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="D" containerID="4409155E-59E9-8FD6-B757-0746034EDA95"/>
+      <container alias="U" containerID="339EC414-B15A-D5E4-D2BF-229ABA7C467A"/>
+      <container alias="DU" containerID="E96C1BF4-DFC2-D18A-6F94-949A2BA45235"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="USERNAME" id="17B813EE-219E-3B54-2745-7C0E6E0C1474">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:58:31 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:58:31 UTC</changedTime>
+         <generatorID>8C42BEF8-DEFC-B5CB-EFF7-E524A9065F09</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (15)</dataType>
+         <reference>false</reference>
+         <referencedColumn>1CEB8F5F-4A47-3E8F-BC86-AB00945C6A26</referencedColumn>
+         <table>339EC414-B15A-D5E4-D2BF-229ABA7C467A</table>
+         <tableAlias>U</tableAlias>
+         <viewID>D1412671-BA22-74B6-3633-B2D53946F580</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="5222D16F-BF7F-962D-D986-7EDCD10845FA">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:58:31 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:58:31 UTC</changedTime>
+         <generatorID>4A98928D-5A22-B775-98F1-4DA5E6C99963</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PERSONNAME</alias>
+         <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
+         <reference>false</reference>
+         <viewID>D1412671-BA22-74B6-3633-B2D53946F580</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NAME_DISCOUNT" id="F766CAFF-39F6-AC7E-ED39-A4F5BADA0522">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:58:31 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:58:31 UTC</changedTime>
+         <generatorID>BEF8E62F-4C3B-E51A-F5BC-EC88D6FF4DC6</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NAME</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>85D4129D-1C7B-ACF8-2D2D-77888C96F64F</referencedColumn>
+         <table>4409155E-59E9-8FD6-B757-0746034EDA95</table>
+         <tableAlias>D</tableAlias>
+         <viewID>D1412671-BA22-74B6-3633-B2D53946F580</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="VALUE_DISCOUNT" id="F5433FC8-989E-CEF5-5D72-DF752EAF4367" directorySegmentName="seg_0">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:58:31 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:58:31 UTC</changedTime>
+         <generatorID>A93980E8-1C23-413B-E71D-C4A368D5FEFB</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>VALUE</alias>
+         <dataType>NUMBER (10,2)</dataType>
+         <reference>false</reference>
+         <referencedColumn>73F35B49-0D47-92FC-77CA-D2AF202E2908</referencedColumn>
+         <table>4409155E-59E9-8FD6-B757-0746034EDA95</table>
+         <tableAlias>D</tableAlias>
+         <viewID>D1412671-BA22-74B6-3633-B2D53946F580</viewID>
+      </viewElement>
+   </viewElements>
+   <orderByMaps>
+      <orderByElement id="FF0FA7C1-651C-4672-CC00-25063F139F52" name="VALUE_DISCOUNT" relem_id="73F35B49-0D47-92FC-77CA-D2AF202E2908" sort="DESC"/>
+   </orderByMaps>
+</TableView>

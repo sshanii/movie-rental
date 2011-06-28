@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="B975C114-5547-445E-2F1D-E93F2A022410" directorySegmentName="seg_0" name="ACTORS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <generatorID>6004D9D1-E460-1639-6F5B-53BAA6C035E1</generatorID>
+   <ownerDesignName>schema</ownerDesignName>
+   <pkName>Actors PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_ACTOR" id="859A34B7-5ED7-A0D7-DE2D-9AFAC1F36C88">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>A61CD90A-5044-A79E-E63F-685A340D21F3</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIRSTNAME" id="F02DA43D-7678-320D-879B-6DBE6B8CFC74">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>1713F631-ECC3-5748-8ABA-0A745564C12D</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LASTNAME" id="A0F65452-B98B-34D3-5C58-68186BFFA4F2">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>55D0A17C-8AC2-CEA5-78C6-C40A00ED6895</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <dataTypeSize>30</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="53B51B66-3375-5B3C-ABB0-7169136452C3" name="Actors PK">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 16:10:50 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <generatorID>8EAF9B99-53CC-E7CA-A797-B7F09AF84967</generatorID>
+         <ownerDesignName>schema</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="859A34B7-5ED7-A0D7-DE2D-9AFAC1F36C88"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>
