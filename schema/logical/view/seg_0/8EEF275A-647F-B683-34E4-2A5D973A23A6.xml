@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="8EEF275A-647F-B683-34E4-2A5D973A23A6" directorySegmentName="seg_0" name="VIEW_DISCOUNTS">
+   <createdBy>oracle</createdBy>
+   <createdTime>2011-06-28 06:31:36 UTC</createdTime>
+   <changedBy>oracle</changedBy>
+   <changedTime>2011-06-28 07:39:49 UTC</changedTime>
+   <ownerDesignName>schema</ownerDesignName>
+   <userDefined>false</userDefined>
+   <userDefinedSQL>CREATE VIEW VIEW_6&amp;lt;br/&amp;gt;  ( NAME,&amp;lt;br/&amp;gt;    POPULARITY,&amp;lt;br/&amp;gt;    SUM_VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    COUNT(D.NAME_DISCOUNT) POPULARITY,&amp;lt;br/&amp;gt;    SUM(D.VALUE_DISCOUNT) SUM_VALUE&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    ORDERS O&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt; GROUP BY &amp;lt;br/&amp;gt;NAME_DISCOUNT(D)&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    POPULARITY DESC,&amp;lt;br/&amp;gt;    SUM_VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <where>D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT</where>
+   <viewType>EntityView</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <usedContainers>
+      <container alias="D" containerID="4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925"/>
+      <container alias="O" containerID="74AE6B41-6C6A-E14C-5833-8CD2669C1E79"/>
+   </usedContainers>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NAME_DISCOUNT" id="9284EF6B-E66F-868C-6EE7-8932E4D691FF">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 06:33:53 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 07:39:38 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NAME</alias>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>3E7C8C4B-A20A-B82B-AB7C-5C01C8C4A786</referencedColumn>
+         <table>4DFF33CE-23A0-E6BA-EAED-B1A0ADF2F925</table>
+         <tableAlias>D</tableAlias>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COUNT(D.NAME_DISCOUNT)" id="074409F4-0B86-99E6-253C-863853C8DD92">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 06:53:41 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 07:39:38 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>POPULARITY</alias>
+         <expression>COUNT(D.NAME_DISCOUNT)</expression>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SUM(D.VALUE_DISCOUNT)" id="F1AC172E-17D5-D3D4-39E2-6884A4199F71">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 07:35:53 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 07:39:38 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SUM_VALUE</alias>
+         <expression>SUM(D.VALUE_DISCOUNT)</expression>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+   <groupByList>
+      <elementID>9284EF6B-E66F-868C-6EE7-8932E4D691FF</elementID>
+   </groupByList>
+   <orderByMaps>
+      <orderByElement id="074409F4-0B86-99E6-253C-863853C8DD92" name="COUNT(D.NAME_DISCOUNT)" sort="DESC"/>
+      <orderByElement id="F1AC172E-17D5-D3D4-39E2-6884A4199F71" name="SUM(D.VALUE_DISCOUNT)" sort="DESC"/>
+   </orderByMaps>
+</EntityView>
