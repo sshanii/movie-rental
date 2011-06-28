@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 20:32:10 UTC</changedTime>
+   <changedTime>2011-06-28 12:33:10 UTC</changedTime>
    <generatorID>7C5D6AF3-ECA5-4006-48DF-47DAC26C8207</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME RESERVED,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME VALID&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    RESERVATIONS_TO_MOVIES RM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USERNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION ID,&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME PERSONNAME,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME RESERVED,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME VALID&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    RESERVATIONS_TO_MOVIES RM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
@@ -47,15 +47,28 @@
          <tableAlias>R</tableAlias>
          <viewID>3EBF6706-C57D-64A1-0161-B490939671F6</viewID>
       </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="USERNAME" id="0B704F42-8A13-DDC5-F779-700FDF32A746">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 12:24:35 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 12:24:35 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>A3841E4A-F90D-9327-FF32-B7110F44ECAD</referencedColumn>
+         <table>53C5D792-9019-7C5E-8B73-EB2DC8D62604</table>
+         <tableAlias>U</tableAlias>
+      </viewElement>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="732A9B73-95F2-5105-9252-7FA9CE239BA9">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:23:40 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <changedTime>2011-06-28 12:33:09 UTC</changedTime>
          <generatorID>33F54CE5-BEB8-43D2-EE99-B54E34808F2E</generatorID>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
-         <alias>USER</alias>
+         <alias>PERSONNAME</alias>
          <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
          <reference>false</reference>
          <viewID>3EBF6706-C57D-64A1-0161-B490939671F6</viewID>

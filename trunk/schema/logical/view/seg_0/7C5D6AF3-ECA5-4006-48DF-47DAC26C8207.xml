@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-26 11:02:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 07:40:55 UTC</changedTime>
+   <changedTime>2011-06-28 12:32:33 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
    <shouldEngineer>false</shouldEngineer>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USER,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <userDefinedSQL>CREATE VIEW VIEW_RESERVATIONS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USERNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    RESERVED,&amp;lt;br/&amp;gt;    VALID )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    R.ID_RESERVATION,&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; PERSONNAME,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    R.RES_START_DATE_TIME,&amp;lt;br/&amp;gt;    R.RES_END_DATE_TIME&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    RESERVATIONS R,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALID DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>M.ID_MOVIE = RM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND R.ID_RESERVATION = RM.RESERVATIONS_ID_RESERVATION&amp;lt;br/&amp;gt;AND R.ID_USER = U.ID_USER</where>
    <viewType>EntityView</viewType>
    <fonts>
@@ -45,14 +45,27 @@
          <table>B86D8034-4CDB-1012-2F08-7DC9005A6236</table>
          <tableAlias>R</tableAlias>
       </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="USERNAME" id="E6B573B8-6D07-9EF5-7A1D-ED4C1BB0EFBB">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 12:25:19 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 12:25:19 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (15)</dataType>
+         <reference>false</reference>
+         <referencedColumn>FA7F3818-3673-1886-E779-64C7B24A640B</referencedColumn>
+         <table>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</table>
+         <tableAlias>U</tableAlias>
+      </viewElement>
       <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="33F54CE5-BEB8-43D2-EE99-B54E34808F2E">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:12:23 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:12:50 UTC</changedTime>
+         <changedTime>2011-06-28 12:32:32 UTC</changedTime>
          <ownerDesignName>newdesign</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
-         <alias>USER</alias>
+         <alias>PERSONNAME</alias>
          <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
          <reference>false</reference>
       </viewElement>
