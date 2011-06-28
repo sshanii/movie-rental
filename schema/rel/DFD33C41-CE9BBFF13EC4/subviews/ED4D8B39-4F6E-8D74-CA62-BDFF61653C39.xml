@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 08:49:26 UTC</changedTime>
+   <changedTime>2011-06-28 12:33:27 UTC</changedTime>
    <autoRoute>false</autoRoute>
    <boxInbox>true</boxInbox>
    <showLegend>false</showLegend>
@@ -20,7 +20,7 @@
          <bounds x="709" y="348" width="202" height="110"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="2A87E52F-C4EE-3BAE-06B6-422C4037CE76" otype="View" vid="74D25CCE-8EBB-12C9-B6B5-3C5ABDF2E842">
-         <bounds x="958" y="370" width="170" height="110"/>
+         <bounds x="948" y="370" width="170" height="110"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="33DBBEA9-3863-0788-88BC-F2B7A24C0108" otype="Table" vid="7F76B54F-801C-0DEC-6466-7374573022DC">
          <bounds x="726" y="25" width="185" height="110"/>
@@ -41,7 +41,7 @@
          <bounds x="478" y="448" width="193" height="110"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="723E9C02-8FC5-2727-7C6A-181904637E08" otype="View" vid="BD18DD70-D94C-5576-2FD0-B90BB0FC7749">
-         <bounds x="953" y="225" width="170" height="110"/>
+         <bounds x="950" y="225" width="191" height="110"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="77820712-1B05-20AD-0930-076A04EEF30C" otype="Table" vid="413D8B08-0933-ABD5-B2B2-AD9BCB71376F">
          <bounds x="227" y="448" width="224" height="110"/>
@@ -53,7 +53,7 @@
          <bounds x="26" y="449" width="185" height="110"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="A1674FC4-9F6D-1867-D976-6C15E3D01944" otype="View" vid="15014CC5-FAA3-09BE-C97D-ACB0CD58B28F">
-         <bounds x="953" y="30" width="170" height="161"/>
+         <bounds x="953" y="30" width="188" height="161"/>
       </OView>
       <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B0114532-F0A6-89B6-A850-718DD7924285" otype="Table" vid="FBD7E87D-081C-F50D-5E40-F2E1F75318D3">
          <bounds x="30" y="278" width="191" height="110"/>

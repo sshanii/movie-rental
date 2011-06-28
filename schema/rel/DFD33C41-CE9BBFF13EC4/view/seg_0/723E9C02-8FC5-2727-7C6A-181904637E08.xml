@@ -3,11 +3,11 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-27 10:23:40 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-27 20:29:35 UTC</changedTime>
+   <changedTime>2011-06-28 12:32:55 UTC</changedTime>
    <generatorID>B420DD51-47F7-DEFD-B627-D6B42492C788</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <userDefined>false</userDefined>
-   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    &amp;quot;USER&amp;quot;,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME USER,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ORDERS_TO_MOVIES OM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
+   <userDefinedSQL>CREATE VIEW VIEW_ORDERS&amp;lt;br/&amp;gt;  ( ID,&amp;lt;br/&amp;gt;    USERNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    TITLE,&amp;lt;br/&amp;gt;    YEAR,&amp;lt;br/&amp;gt;    THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    DISCOUNT,&amp;lt;br/&amp;gt;    ORDERED )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    O.ID_ORDER ID,&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    U.&amp;quot;FIRSTNAME || &amp;apos; &amp;apos; || U&amp;quot;.LASTNAME PERSONNAME,&amp;lt;br/&amp;gt;    M.TITLE,&amp;lt;br/&amp;gt;    M.YEAR,&amp;lt;br/&amp;gt;    M.THREE_DIMENSIONAL,&amp;lt;br/&amp;gt;    D.&amp;quot;NAME_DISCOUNT || &amp;apos; - &amp;apos; || D&amp;quot;.VALUE_DISCOUNT DISCOUNT,&amp;lt;br/&amp;gt;    O.ORDER_DATE_TIME ORDERED&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    ORDERS O,&amp;lt;br/&amp;gt;    MOVIES M,&amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U,&amp;lt;br/&amp;gt;    ORDERS_TO_MOVIES OM&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    ORDERED DESC,&amp;lt;br/&amp;gt;    ID ASC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>M.ID_MOVIE = OM.MOVIES_ID_MOVIE&amp;lt;br/&amp;gt;AND O.ID_ORDER = OM.ORDERS_ID_ORDER&amp;lt;br/&amp;gt;AND O.ID_DISCOUNT = D.ID_DISCOUNT&amp;lt;br/&amp;gt;AND O.ID_USER = U.ID_USER</where>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
@@ -48,15 +48,28 @@
          <tableAlias>O</tableAlias>
          <viewID>723E9C02-8FC5-2727-7C6A-181904637E08</viewID>
       </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="USERNAME" id="1E1B93F3-99D5-4696-12A4-2C05D4D32D27">
+         <createdBy>oracle</createdBy>
+         <createdTime>2011-06-28 12:23:59 UTC</createdTime>
+         <changedBy>oracle</changedBy>
+         <changedTime>2011-06-28 12:23:59 UTC</changedTime>
+         <ownerDesignName>schema</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <dataType>NVARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <referencedColumn>A3841E4A-F90D-9327-FF32-B7110F44ECAD</referencedColumn>
+         <table>53C5D792-9019-7C5E-8B73-EB2DC8D62604</table>
+         <tableAlias>U</tableAlias>
+      </viewElement>
       <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME" id="CD358B47-1E94-7FF1-4437-5F03F91657E3">
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:23:40 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-27 10:23:40 UTC</changedTime>
+         <changedTime>2011-06-28 12:32:54 UTC</changedTime>
          <generatorID>CF1C632C-77C9-95A3-8087-D94F3C27EC5A</generatorID>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
-         <alias>USER</alias>
+         <alias>PERSONNAME</alias>
          <expression>U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME</expression>
          <reference>false</reference>
          <viewID>723E9C02-8FC5-2727-7C6A-181904637E08</viewID>
