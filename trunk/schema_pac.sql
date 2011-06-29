@@ -26,6 +26,12 @@ CREATE OR REPLACE PACKAGE actions AS
   * @param i_username
   */
   PROCEDURE view_reservations_user(i_username IN users.username%TYPE);
+  
+  /**
+  * Procedura vypise prehlad zliav uzivatela
+  * @param i_username
+  */
+  PROCEDURE view_discounts_user(i_username IN users.username%TYPE);
 END actions;
 /
 
@@ -74,6 +80,14 @@ CREATE OR REPLACE PACKAGE BODY actions AS
       dbms_output.put_line('3D: ' || i.three_dimensional);
       dbms_output.put_line('Reserved: ' || i.reserved);
       dbms_output.put_line('Valid to: ' || i.valid);
+    END LOOP;
+  END;
+  
+  PROCEDURE view_discounts_user(i_username IN users.username%TYPE) IS
+  BEGIN
+    FOR i IN (SELECT * FROM view_discounts_user WHERE username = i_username) LOOP
+      dbms_output.put_line('Name: ' || i.NAME);
+      dbms_output.put_line('Value: ' || i.value);
     END LOOP;
   END;
 END actions;
