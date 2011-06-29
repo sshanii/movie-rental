@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:10:29 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 17:21:15 UTC</changedTime>
+   <changedTime>2011-06-28 22:05:39 UTC</changedTime>
    <autoRoute>false</autoRoute>
    <boxInbox>true</boxInbox>
    <showLegend>false</showLegend>
@@ -93,8 +93,8 @@
       <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="4179A381-1DCB-AE9F-E313-CABF573F1FA8" otype="FKIndexAssociation" vid_source="EB552672-0819-D482-51E0-5117B2B71FFD" vid_target="11316F44-01DE-9487-1564-D1548BE86774">
          <lineWidth>1</lineWidth>
          <points>
-            <point x="235" y="261"/>
-            <point x="235" y="310"/>
+            <point x="105" y="929"/>
+            <point x="105" y="989"/>
          </points>
       </Connector>
       <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="492D88D7-FAB9-C602-182D-1F8A8FC9FE84" otype="FKIndexAssociation" vid_source="F4929FDC-AA68-9F7A-4358-405C58B7EAA8" vid_target="11316F44-01DE-9487-1564-D1548BE86774">

@@ -3,8 +3,9 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:28:01 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 17:11:13 UTC</changedTime>
+   <changedTime>2011-06-28 22:04:11 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
    <userDefined>false</userDefined>
    <userDefinedSQL>CREATE VIEW VIEW_DISCOUNTS_USER&amp;lt;br/&amp;gt;  ( USERNAME,&amp;lt;br/&amp;gt;    PERSONNAME,&amp;lt;br/&amp;gt;    NAME,&amp;lt;br/&amp;gt;    VALUE )&amp;lt;br/&amp;gt;AS SELECT&amp;lt;br/&amp;gt;    U.USERNAME,&amp;lt;br/&amp;gt;    &amp;quot;U.FIRSTNAME || &amp;apos; &amp;apos; || U.LASTNAME&amp;quot; PERSONNAME,&amp;lt;br/&amp;gt;    D.NAME_DISCOUNT,&amp;lt;br/&amp;gt;    D.VALUE_DISCOUNT&amp;lt;br/&amp;gt; FROM &amp;lt;br/&amp;gt;    DISCOUNTS D,&amp;lt;br/&amp;gt;    USERS U&amp;lt;br/&amp;gt; WHERE &amp;lt;br/&amp;gt;    U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;&amp;lt;br/&amp;gt; ORDER BY &amp;lt;br/&amp;gt;    VALUE DESC&amp;lt;br/&amp;gt;;</userDefinedSQL>
    <where>U.ID_USER = DU.USERS_ID_USER&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT = DU.DISCOUNTS_ID_DISCOUNT&amp;lt;br/&amp;gt;AND D.ID_DISCOUNT &amp;lt;&amp;gt; &amp;apos;1&amp;apos;</where>
@@ -36,7 +37,7 @@
          <changedTime>2011-06-28 16:35:01 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
-         <dataType>NVARCHAR2 (15)</dataType>
+         <dataType>NVARCHAR2 (30)</dataType>
          <reference>false</reference>
          <referencedColumn>FA7F3818-3673-1886-E779-64C7B24A640B</referencedColumn>
          <table>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</table>

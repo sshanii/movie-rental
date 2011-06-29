@@ -3,8 +3,9 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 17:58:58 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 22:04:11 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
    <pkName>Reservations PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
    <expectedVolumes>0</expectedVolumes>
@@ -54,8 +55,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:59:23 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
          <dataTypePrecision>10</dataTypePrecision>
@@ -65,8 +67,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 17:59:33 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT008</logicalDatatype>
       </Attribute>
@@ -74,8 +77,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:00:41 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT008</logicalDatatype>
       </Attribute>
@@ -83,9 +87,10 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-27 10:07:29 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <generatorID>8E278282-2373-8FCA-EF23-E09AE910D274</generatorID>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <nullsAllowed>true</nullsAllowed>
          <referedAttribute>6283CC1A-12D7-3556-8BAC-E08DC0961816</referedAttribute>
          <use>1</use>
@@ -99,8 +104,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:02:12 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <pk>true</pk>
          <usedAttributes>
             <attributeRef>71B45D63-59E6-92B1-D928-BFE393196323</attributeRef>

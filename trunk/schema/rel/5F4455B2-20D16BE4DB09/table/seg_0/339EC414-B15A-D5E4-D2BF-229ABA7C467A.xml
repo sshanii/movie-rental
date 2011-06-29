@@ -3,7 +3,7 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-28 16:10:50 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 22:04:41 UTC</changedTime>
    <generatorID>9693CCF0-10B5-9AFF-7B69-D2129ADFF408</generatorID>
    <ownerDesignName>schema</ownerDesignName>
    <pkName>Users PK</pkName>
@@ -65,7 +65,7 @@
          <ownerDesignName>schema</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
-         <dataTypeSize>15</dataTypeSize>
+         <dataTypeSize>30</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
       <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PASSWORD" id="CFF71A98-9EAB-19C1-D87F-08CFD7CE09B2">
