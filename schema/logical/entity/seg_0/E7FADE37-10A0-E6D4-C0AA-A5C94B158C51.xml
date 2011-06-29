@@ -3,8 +3,9 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 20:10:19 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 22:04:11 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
    <pkName>DataMedium PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
    <expectedVolumes>0</expectedVolumes>
@@ -54,8 +55,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 20:13:51 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
          <dataTypePrecision>10</dataTypePrecision>
@@ -65,8 +67,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 20:14:19 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>30</dataTypeSize>
@@ -77,8 +80,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 20:14:16 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <pk>true</pk>
          <usedAttributes>
             <attributeRef>0E1CF16F-1B19-6984-46FD-A04F3B8B6137</attributeRef>

@@ -3,8 +3,9 @@
    <createdBy>oracle</createdBy>
    <createdTime>2011-06-25 18:19:48 UTC</createdTime>
    <changedBy>oracle</changedBy>
-   <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+   <changedTime>2011-06-28 22:04:11 UTC</changedTime>
    <ownerDesignName>schema</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
    <pkName>Discounts PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
    <expectedVolumes>0</expectedVolumes>
@@ -54,8 +55,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:20:07 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
          <dataTypePrecision>10</dataTypePrecision>
@@ -65,8 +67,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:20:17 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <use>1</use>
          <logicalDatatype>LOGDT037</logicalDatatype>
          <dataTypeSize>30</dataTypeSize>
@@ -75,8 +78,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:20:30 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <defaultValue>0</defaultValue>
          <use>1</use>
          <logicalDatatype>LOGDT019</logicalDatatype>
@@ -89,8 +93,9 @@
          <createdBy>oracle</createdBy>
          <createdTime>2011-06-25 18:20:16 UTC</createdTime>
          <changedBy>oracle</changedBy>
-         <changedTime>2011-06-28 16:10:50 UTC</changedTime>
+         <changedTime>2011-06-28 22:04:11 UTC</changedTime>
          <ownerDesignName>schema</ownerDesignName>
+         <shouldEngineer>false</shouldEngineer>
          <pk>true</pk>
          <usedAttributes>
             <attributeRef>C06DE044-5C68-AA64-3374-09142666F7B0</attributeRef>
